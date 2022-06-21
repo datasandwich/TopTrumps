@@ -3,3 +3,7 @@
 ################################################################################
 
 /SQL/dbo.CardAttributes.sql
+/SQL/dbo.DeckSelection.sql
+/SQL/dbo.MTGDeck.sql
+/Deck(MTG).mdf
+/Deck(MTG)_log.ldf
