@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3kfak2XNABte8144cIiWgIVV8ID8uCfwzbwgO0hMbAu7pky4WtM+Wm/gkYSqalVvWXvkMOcMlJCEbWPSu5eOaQ==",
+  "dgSpecHash": "a60XiQPdmIcmcrzO27RBmvKbooNBbJALhAxjhhQwCgFBG9BhcZ6iKS/9KywWonwv7ZdozQ0o/IiFfxG7FfQTRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abrah\\Source\\Repos\\TopTrumps1\\TopTrumps\\TopTrumps.csproj",
+  "projectFilePath": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\TopTrumps.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abrah\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.6\\microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",
