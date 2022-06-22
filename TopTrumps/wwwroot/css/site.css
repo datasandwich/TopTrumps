@@ -15,4 +15,12 @@ html {
 
 body {
   margin-bottom: 60px;
+  
+}
+
+footer {
+    position: fixed;
+    padding-bottom: 2em;
+    bottom: 0;
+    width: 100%;
 }

@@ -8,6 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\logo.png" />
+    <Content Remove="wwwroot\images\Top_Trumps_Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="wwwroot\images\animals\cardBack.png" />
+    <None Remove="wwwroot\images\animals\koala.png.crdownload" />
+    <None Remove="wwwroot\images\animals\tiger.png.crdownload" />
+    <None Remove="wwwroot\images\logo.png" />
+    <None Remove="wwwroot\images\Top_Trumps_Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\animals\cheetah.png" />
+    <None Include="wwwroot\images\animals\Chimpanzee.png" />
+    <None Include="wwwroot\images\animals\ostrich.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
 
@@ -17,6 +36,15 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="wwwroot\images\animals\cardBack.png" />
+    <Resource Include="wwwroot\images\animals\koala.png.crdownload" />
+    <Resource Include="wwwroot\images\animals\tiger.png.crdownload" />
+    <Resource Include="wwwroot\images\logo.png" />
+    <Resource Include="wwwroot\images\Top_Trumps_Logo.png" />
   </ItemGroup>
 
 </Project>
