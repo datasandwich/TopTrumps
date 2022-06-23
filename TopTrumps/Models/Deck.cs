@@ -1,6 +1,6 @@
-﻿namespace TopTrumps.Models;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 
+namespace TopTrumps.Models;
 public class Deck
 {
     private Queue<Card>? _cards { get; set; }
@@ -50,6 +50,7 @@ public class Deck
     }
     public async void Load(int deckNo)
     {
+        await Task.Delay(deckNo);
         Queue<Card> cards = new Queue<Card>();
         for (int i = 0; i < 20; i++)
         {
