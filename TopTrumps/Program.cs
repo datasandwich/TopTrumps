@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TopTrumps.Data;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<DeckDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DeckDbContext") ?? throw new InvalidOperationException("Connection string 'DeckDbContext' not found.")));
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");

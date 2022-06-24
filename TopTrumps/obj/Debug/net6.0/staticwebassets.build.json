@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "Hash": "RvAiCHlyxXeAS482pd3cNedl6jMmKvxjHM9X8/09RHs=",
+=======
   "Hash": "7unylwk276rNDjoLqpyLnktxjpFvGER4cs+6fvM0sgs=",
+>>>>>>> d3dd2b353f75de3998687bf7536105d1c6d4a89f
   "Source": "TopTrumps",
   "BasePath": "_content/TopTrumps",
   "Mode": "Default",
@@ -10,17 +14,17 @@
     {
       "Name": "TopTrumps\\wwwroot",
       "Source": "TopTrumps",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -31,13 +35,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -65,13 +69,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -82,13 +86,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -99,13 +103,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +120,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -133,13 +137,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -150,13 +154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -167,13 +171,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -184,13 +188,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -201,13 +205,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -218,13 +222,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -235,13 +239,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -252,13 +256,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -269,13 +273,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -286,13 +290,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -303,13 +307,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -320,13 +324,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -337,13 +341,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -354,13 +358,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -371,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -388,13 +392,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -405,13 +409,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -422,13 +426,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -439,13 +443,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -456,13 +460,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,13 +477,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -490,13 +494,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -507,13 +511,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -524,13 +528,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -541,13 +545,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -558,13 +562,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -575,13 +579,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -592,13 +596,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -609,13 +613,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -626,13 +630,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -643,13 +647,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -660,13 +664,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -677,13 +681,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -694,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -711,13 +715,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -728,13 +732,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -745,13 +749,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -762,13 +766,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -779,13 +783,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -796,13 +800,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -813,13 +817,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -830,13 +834,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -847,13 +851,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -864,13 +868,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -881,13 +885,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -898,13 +902,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -915,13 +919,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -932,13 +936,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -949,13 +953,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -966,13 +970,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -983,13 +987,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1000,13 +1004,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1017,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1034,13 +1038,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\magda\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TopTrumps.styles.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TopTrumps.styles.css",
       "SourceId": "TopTrumps",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "TopTrumps.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1055,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TopTrumps.styles.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TopTrumps.styles.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TopTrumps.bundle.scp.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TopTrumps.bundle.scp.css",
       "SourceId": "TopTrumps",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "TopTrumps.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1072,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TopTrumps.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TopTrumps.bundle.scp.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\.DS_Store",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\.DS_Store",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -1088,10 +1092,10 @@
       "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\css\\BootswatchTheme.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\css\\BootswatchTheme.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "css/BootswatchTheme.css",
       "AssetKind": "All",
@@ -1105,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\css\\BootswatchTheme.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\css\\site.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1122,10 +1126,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\favicon.ico",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1139,10 +1143,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\.DS_Store",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\.DS_Store",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/.DS_Store",
       "AssetKind": "All",
@@ -1156,10 +1160,14 @@
       "OriginalItemSpec": "wwwroot\\images\\.DS_Store"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\animals\\cardBack.png",
+=======
       "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\animals\\anaconda.jpg",
+>>>>>>> d3dd2b353f75de3998687bf7536105d1c6d4a89f
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/animals/anaconda.jpg",
       "AssetKind": "All",
@@ -1173,10 +1181,14 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\anaconda.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\animals\\cheetah.png",
+=======
       "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\animals\\animals.jpg",
+>>>>>>> d3dd2b353f75de3998687bf7536105d1c6d4a89f
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/animals/animals.jpg",
       "AssetKind": "All",
@@ -1190,10 +1202,14 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\animals.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\animals\\Chimpanzee.png",
+=======
       "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\animals\\bluewhale.jpg",
+>>>>>>> d3dd2b353f75de3998687bf7536105d1c6d4a89f
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/animals/bluewhale.jpg",
       "AssetKind": "All",
@@ -1207,10 +1223,14 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\bluewhale.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\animals\\ostrich.png",
+=======
       "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\animals\\brownBear.jpg",
+>>>>>>> d3dd2b353f75de3998687bf7536105d1c6d4a89f
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/animals/brownBear.jpg",
       "AssetKind": "All",
@@ -1530,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\squirel.jpg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Aphrodite.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Aphrodite.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Aphrodite.jpeg",
       "AssetKind": "All",
@@ -1547,10 +1567,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Aphrodite.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Athena.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Athena.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Athena.jpeg",
       "AssetKind": "All",
@@ -1564,10 +1584,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Athena.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Bellerophon.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Bellerophon.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Bellerophon.jpeg",
       "AssetKind": "All",
@@ -1581,10 +1601,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Bellerophon.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Chimera.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Chimera.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Chimera.jpeg",
       "AssetKind": "All",
@@ -1598,10 +1618,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Chimera.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Dionysus.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Dionysus.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Dionysus.jpeg",
       "AssetKind": "All",
@@ -1615,10 +1635,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Dionysus.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Gera.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Gera.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Gera.jpeg",
       "AssetKind": "All",
@@ -1632,10 +1652,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Gera.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Graeae.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Graeae.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Graeae.jpeg",
       "AssetKind": "All",
@@ -1649,10 +1669,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Graeae.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Hephaestus.png",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Hephaestus.png",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Hephaestus.png",
       "AssetKind": "All",
@@ -1666,10 +1686,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Hephaestus.png"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Heracles.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Heracles.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Heracles.jpeg",
       "AssetKind": "All",
@@ -1683,10 +1703,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Heracles.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Hermes.webp",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Hermes.webp",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Hermes.webp",
       "AssetKind": "All",
@@ -1700,10 +1720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Hermes.webp"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Icarus.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Icarus.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Icarus.jpeg",
       "AssetKind": "All",
@@ -1717,10 +1737,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Icarus.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Kratos.webp",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Kratos.webp",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Kratos.webp",
       "AssetKind": "All",
@@ -1734,10 +1754,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Kratos.webp"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Medusa.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Medusa.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Medusa.jpeg",
       "AssetKind": "All",
@@ -1751,10 +1771,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Medusa.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Minotaur.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Minotaur.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Minotaur.jpeg",
       "AssetKind": "All",
@@ -1768,10 +1788,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Minotaur.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Oddysseus.webp",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Oddysseus.webp",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Oddysseus.webp",
       "AssetKind": "All",
@@ -1785,10 +1805,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Oddysseus.webp"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Pegasus.webp",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Pegasus.webp",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Pegasus.webp",
       "AssetKind": "All",
@@ -1802,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Pegasus.webp"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Perseus.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Perseus.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Perseus.jpeg",
       "AssetKind": "All",
@@ -1819,10 +1839,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Perseus.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Polyphemus.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Polyphemus.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Polyphemus.jpeg",
       "AssetKind": "All",
@@ -1836,10 +1856,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Polyphemus.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Poseidon.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Poseidon.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Poseidon.jpeg",
       "AssetKind": "All",
@@ -1853,10 +1873,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Poseidon.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\GM\\Zeus.jpeg",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\GM\\Zeus.jpeg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "images/GM/Zeus.jpeg",
       "AssetKind": "All",
@@ -1870,10 +1890,10 @@
       "OriginalItemSpec": "wwwroot\\images\\GM\\Zeus.jpeg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\js\\site.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1887,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1904,10 +1924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1921,10 +1941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1938,10 +1958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1955,10 +1975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1972,10 +1992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1989,10 +2009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2006,10 +2026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2023,10 +2043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2040,10 +2060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2057,10 +2077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2074,10 +2094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2091,10 +2111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2108,10 +2128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2125,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2142,10 +2162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2159,10 +2179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2176,10 +2196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2193,10 +2213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2210,10 +2230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2227,10 +2247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2244,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2261,10 +2281,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2278,10 +2298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2295,10 +2315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2312,10 +2332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2329,10 +2349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2346,10 +2366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2363,10 +2383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2380,10 +2400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2397,10 +2417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2414,10 +2434,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2431,10 +2451,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2448,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2465,10 +2485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2482,10 +2502,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2499,10 +2519,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2516,10 +2536,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2533,10 +2553,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2550,10 +2570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2567,10 +2587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2584,10 +2604,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2601,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2618,10 +2638,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2635,10 +2655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2652,10 +2672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2669,10 +2689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2686,10 +2706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2703,10 +2723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2720,10 +2740,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2737,10 +2757,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2754,10 +2774,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2771,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2788,10 +2808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2805,10 +2825,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2822,10 +2842,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2839,10 +2859,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
