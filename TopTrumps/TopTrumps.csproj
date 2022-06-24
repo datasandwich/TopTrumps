@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\animals\cardBack.png" />
     <Content Remove="wwwroot\images\logo.png" />
     <Content Remove="wwwroot\images\Top_Trumps_Logo.png" />
     <Content Remove="wwwroot\images\GM\" />
@@ -19,12 +20,6 @@
     <None Remove="wwwroot\images\animals\tiger.png.crdownload" />
     <None Remove="wwwroot\images\logo.png" />
     <None Remove="wwwroot\images\Top_Trumps_Logo.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\images\animals\cheetah.png" />
-    <None Include="wwwroot\images\animals\Chimpanzee.png" />
-    <None Include="wwwroot\images\animals\ostrich.png" />
   </ItemGroup>
 
   <ItemGroup>
