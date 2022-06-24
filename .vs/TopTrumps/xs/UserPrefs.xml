@@ -2,18 +2,16 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TopTrumps" expanded="True">
+          <Node name="TopTrumps" expanded="True" selected="True">
             <Node name="TopTrumps" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Data" expanded="True">
-                <Node name="Migrations" expanded="True">
-                  <Node name="ApplicationDbContextModelSnapshot.cs" selected="True" />
-                </Node>
+                <Node name="Migrations" expanded="True" />
               </Node>
               <Node name="Models" expanded="True" />
             </Node>
@@ -25,7 +23,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.TopTrumps PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>
