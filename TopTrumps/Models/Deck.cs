@@ -3,12 +3,15 @@ using System.Data.SqlClient;
 
 public class Deck
 {
+    public int Id { get; set; }
+    public string Name { get; set; }
     private Queue<Card>? _cards { get; set; }
     private string? _owner { get; set; }
-    public Deck(Queue<Card>? cards, string? owner)
+    public Deck(Queue<Card>? cards, string? owner, string name)
     {
         _cards = cards;
         _owner = owner;
+        Name = name;
     }
     public string? getOwner() { return _owner; }
     public Queue<Card>? getCards() { return _cards; }
