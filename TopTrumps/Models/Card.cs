@@ -3,6 +3,7 @@
     public class Card
     {
         public int ID { get; set; }
+        public int DeckID { get; set; }
         public string Name { get; set; }
         public int Attr1 { get; set; }
         public int Attr2 { get; set; }
