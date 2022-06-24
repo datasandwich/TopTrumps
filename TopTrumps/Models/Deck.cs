@@ -3,6 +3,8 @@ using System.Data.SqlClient;
 
 public class Deck
 {
+    public int Id { get; set; }
+    public string Name { get; set; }
     private Queue<Card>? _cards { get; set; }
     private string? _owner { get; set; }
     public Deck(Queue<Card>? cards, string? owner, string name)
