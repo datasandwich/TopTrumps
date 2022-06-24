@@ -2,14 +2,11 @@
 
 namespace TopTrumps.Controllers
 {
-    public class MenuController : Controller
+    public class GameController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-
-
-
     }
 }
