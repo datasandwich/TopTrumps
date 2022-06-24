@@ -1,15 +1,18 @@
 ﻿namespace TopTrumps.Models;
-using System.Data.SqlClient;
 
 public class Deck
 {
+    public int Id { get; set; }
+    public string Name { get; set; }
     private Queue<Card>? _cards { get; set; }
     private string? _owner { get; set; }
-    public Deck(Queue<Card>? cards, string? owner)
-    {
-        _cards = cards;
-        _owner = owner;
-    }
+    //public Deck(Queue<Card>? cards, string? owner, int id, string name)
+    //{
+    //    _cards = cards;
+    //    _owner = owner;
+    //    Id = id;
+    //    Name = name;
+    //}
     public string? getOwner() { return _owner; }
     public Queue<Card>? getCards() { return _cards; }
 
