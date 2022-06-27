@@ -22,20 +22,20 @@ namespace TopTrumps.Controllers
         // GET: Decks
         public async Task<IActionResult> Index()
         {
-              return _context.Deck != null ? 
-                          View(await _context.Deck.ToListAsync()) :
+              return _context.Decks != null ? 
+                          View(await _context.Decks.ToListAsync()) :
                           Problem("Entity set 'DeckDbContext.Deck'  is null.");
         }
 
         // GET: Decks/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Deck == null)
+            if (id == null || _context.Decks == null)
             {
                 return NotFound();
             }
 
-            var deck = await _context.Deck
+            var deck = await _context.Decks
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (deck == null)
             {
@@ -70,12 +70,12 @@ namespace TopTrumps.Controllers
         // GET: Decks/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Deck == null)
+            if (id == null || _context.Decks == null)
             {
                 return NotFound();
             }
 
-            var deck = await _context.Deck.FindAsync(id);
+            var deck = await _context.Decks.FindAsync(id);
             if (deck == null)
             {
                 return NotFound();
@@ -121,12 +121,12 @@ namespace TopTrumps.Controllers
         // GET: Decks/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Deck == null)
+            if (id == null || _context.Decks == null)
             {
                 return NotFound();
             }
 
-            var deck = await _context.Deck
+            var deck = await _context.Decks
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (deck == null)
             {
@@ -141,14 +141,14 @@ namespace TopTrumps.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Deck == null)
+            if (_context.Decks == null)
             {
                 return Problem("Entity set 'DeckDbContext.Deck'  is null.");
             }
-            var deck = await _context.Deck.FindAsync(id);
+            var deck = await _context.Decks.FindAsync(id);
             if (deck != null)
             {
-                _context.Deck.Remove(deck);
+                _context.Decks.Remove(deck);
             }
             
             await _context.SaveChangesAsync();
@@ -157,7 +157,7 @@ namespace TopTrumps.Controllers
 
         private bool DeckExists(int id)
         {
-          return (_context.Deck?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Decks?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

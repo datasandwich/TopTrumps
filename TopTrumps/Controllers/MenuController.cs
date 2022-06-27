@@ -12,13 +12,13 @@ namespace TopTrumps.Controllers
         //{
         //        _db=db
         //}
+
+
+        //var decksList = _db.DeckSelection.ToList();
+        //var cards = _db.Cards.ToList();
+        //var attributes = _db.Attributes.ToList();
         public IActionResult Index()
         {
-
-
-            //var decksList = _db.DeckSelection.ToList();
-            //var cards = _db.Cards.ToList();
-            //var attributes = _db.Attributes.ToList();
 
             return View();
         }

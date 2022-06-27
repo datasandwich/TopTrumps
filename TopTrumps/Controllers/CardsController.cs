@@ -22,20 +22,20 @@ namespace TopTrumps.Controllers
         // GET: Cards
         public async Task<IActionResult> Index()
         {
-              return _context.Card != null ? 
-                          View(await _context.Card.ToListAsync()) :
+              return _context.Cards != null ? 
+                          View(await _context.Cards.ToListAsync()) :
                           Problem("Entity set 'DeckDbContext.Card'  is null.");
         }
 
         // GET: Cards/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Card == null)
+            if (id == null || _context.Cards == null)
             {
                 return NotFound();
             }
 
-            var card = await _context.Card
+            var card = await _context.Cards
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (card == null)
             {
@@ -70,12 +70,12 @@ namespace TopTrumps.Controllers
         // GET: Cards/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Card == null)
+            if (id == null || _context.Cards == null)
             {
                 return NotFound();
             }
 
-            var card = await _context.Card.FindAsync(id);
+            var card = await _context.Cards.FindAsync(id);
             if (card == null)
             {
                 return NotFound();
@@ -121,12 +121,12 @@ namespace TopTrumps.Controllers
         // GET: Cards/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Card == null)
+            if (id == null || _context.Cards == null)
             {
                 return NotFound();
             }
 
-            var card = await _context.Card
+            var card = await _context.Cards
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (card == null)
             {
@@ -141,14 +141,14 @@ namespace TopTrumps.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Card == null)
+            if (_context.Cards == null)
             {
                 return Problem("Entity set 'DeckDbContext.Card'  is null.");
             }
-            var card = await _context.Card.FindAsync(id);
+            var card = await _context.Cards.FindAsync(id);
             if (card != null)
             {
-                _context.Card.Remove(card);
+                _context.Cards.Remove(card);
             }
             
             await _context.SaveChangesAsync();
@@ -157,7 +157,7 @@ namespace TopTrumps.Controllers
 
         private bool CardExists(int id)
         {
-          return (_context.Card?.Any(e => e.ID == id)).GetValueOrDefault();
+          return (_context.Cards?.Any(e => e.ID == id)).GetValueOrDefault();
         }
     }
 }
