@@ -29,20 +29,25 @@ namespace TopTrumps.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
-                    b.Property<int>("Attr1")
-                        .HasColumnType("int");
+                    b.Property<string>("Attr1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Attr2")
-                        .HasColumnType("int");
+                    b.Property<string>("Attr2")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Attr3")
-                        .HasColumnType("int");
+                    b.Property<string>("Attr3")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Attr4")
-                        .HasColumnType("int");
+                    b.Property<string>("Attr4")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Attr5")
-                        .HasColumnType("int");
+                    b.Property<string>("Attr5")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Deckid")
                         .HasColumnType("int");
@@ -77,6 +82,13 @@ namespace TopTrumps.Migrations
 
                     b.Property<int>("Deckid")
                         .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Imagepath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()

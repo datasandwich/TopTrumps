@@ -48,8 +48,7 @@ namespace TopTrumps.Controllers
         }
         public void Populate()
         {
-            var decks = _context.Deck
-                .FromSqlRaw("EXECUTE /SQL/DeckSelectionData.sql");
+            var decks = _context.Deck.CreateDbCommand().ExecuteNonQuery;
         }
         // GET: Decks/Create
         public IActionResult Create()

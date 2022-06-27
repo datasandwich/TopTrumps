@@ -15,11 +15,11 @@ namespace TopTrumps.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Deckid = table.Column<int>(type: "int", nullable: false),
-                    Attr1 = table.Column<int>(type: "nvarchar(max)", nullable: false),
-                    Attr2 = table.Column<int>(type: "nvarchar(max)", nullable: false),
-                    Attr3 = table.Column<int>(type: "nvarchar(max)", nullable: false),
-                    Attr4 = table.Column<int>(type: "nvarchar(max)", nullable: false),
-                    Attr5 = table.Column<int>(type: "nvarchar(max)", nullable: false)
+                    Attr1 = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Attr2 = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Attr3 = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Attr4 = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Attr5 = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -34,11 +34,13 @@ namespace TopTrumps.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Deckid = table.Column<int>(type: "int", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Attr1 = table.Column<int>(type: "int", nullable: false),
                     Attr2 = table.Column<int>(type: "int", nullable: false),
                     Attr3 = table.Column<int>(type: "int", nullable: false),
                     Attr4 = table.Column<int>(type: "int", nullable: false),
-                    Attr5 = table.Column<int>(type: "int", nullable: false)
+                    Attr5 = table.Column<int>(type: "int", nullable: false),
+                    Imagepath = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

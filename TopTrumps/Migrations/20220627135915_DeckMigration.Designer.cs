@@ -11,7 +11,7 @@ using TopTrumps.Data;
 namespace TopTrumps.Migrations
 {
     [DbContext(typeof(DeckDbContext))]
-    [Migration("20220627105446_DeckMigration")]
+    [Migration("20220627135915_DeckMigration")]
     partial class DeckMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,19 +31,24 @@ namespace TopTrumps.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
-                    b.Property<int>("Attr1")
+                    b.Property<string>("Attr1")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Attr2")
+                    b.Property<string>("Attr2")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Attr3")
+                    b.Property<string>("Attr3")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Attr4")
+                    b.Property<string>("Attr4")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Attr5")
+                    b.Property<string>("Attr5")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Deckid")
@@ -79,6 +84,13 @@ namespace TopTrumps.Migrations
 
                     b.Property<int>("Deckid")
                         .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Imagepath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
