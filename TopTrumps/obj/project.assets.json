@@ -10367,7 +10367,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'expectedPackageFiles', line 197, position 0."
     }
   ]
 }

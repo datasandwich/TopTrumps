@@ -22,29 +22,35 @@ namespace TopTrumps.Controllers
         // GET: Decks
         public async Task<IActionResult> Index()
         {
-              return _context.Decks != null ? 
-                          View(await _context.Decks.ToListAsync()) :
+            Populate();
+            await _context.SaveChangesAsync();
+            return _context.Deck != null ?
+                          View(await _context.Deck.ToListAsync()) :
                           Problem("Entity set 'DeckDbContext.Deck'  is null.");
         }
 
         // GET: Decks/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Decks == null)
+            if (id == null || _context.Deck == null)
             {
                 return NotFound();
             }
 
-            var deck = await _context.Decks
+            var deck = await _context.Deck
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (deck == null)
             {
                 return NotFound();
             }
-
+            Populate();
             return View(deck);
         }
-
+        public void Populate()
+        {
+            var decks = _context.Deck
+                .FromSqlRaw("EXECUTE /SQL/DeckSelectionData.sql");
+        }
         // GET: Decks/Create
         public IActionResult Create()
         {
@@ -56,7 +62,7 @@ namespace TopTrumps.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Deck deck)
+        public async Task<IActionResult> Create([Bind("Id,Name,ImagePath")] Deck deck)
         {
             if (ModelState.IsValid)
             {
@@ -70,12 +76,12 @@ namespace TopTrumps.Controllers
         // GET: Decks/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Decks == null)
+            if (id == null || _context.Deck == null)
             {
                 return NotFound();
             }
 
-            var deck = await _context.Decks.FindAsync(id);
+            var deck = await _context.Deck.FindAsync(id);
             if (deck == null)
             {
                 return NotFound();
@@ -88,7 +94,7 @@ namespace TopTrumps.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Deck deck)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ImagePath")] Deck deck)
         {
             if (id != deck.Id)
             {
@@ -121,12 +127,12 @@ namespace TopTrumps.Controllers
         // GET: Decks/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Decks == null)
+            if (id == null || _context.Deck == null)
             {
                 return NotFound();
             }
 
-            var deck = await _context.Decks
+            var deck = await _context.Deck
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (deck == null)
             {
@@ -141,14 +147,14 @@ namespace TopTrumps.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Decks == null)
+            if (_context.Deck == null)
             {
                 return Problem("Entity set 'DeckDbContext.Deck'  is null.");
             }
-            var deck = await _context.Decks.FindAsync(id);
+            var deck = await _context.Deck.FindAsync(id);
             if (deck != null)
             {
-                _context.Decks.Remove(deck);
+                _context.Deck.Remove(deck);
             }
             
             await _context.SaveChangesAsync();
@@ -157,7 +163,7 @@ namespace TopTrumps.Controllers
 
         private bool DeckExists(int id)
         {
-          return (_context.Decks?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Deck?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
