@@ -7,28 +7,30 @@
 <section class=" d-flex  flex-wrap gy-5 justify-content-between mb-5">
 
     <div class=" d-flex flex-column mb-5">
-        <div class="card border-primary mb-3 " style="max-width: 20rem;">
+        <div class="card border-primary mb-3" style="max-width:20rem; height:30rem">
             <h4 class="card-title text-center">Roys title</h4>
-            <img src="/images/animals/anaconda.jpg" class="h-100" />
+            <img src="/images/Planeswalkers/ajani.jpg" class="h-100" />
         </div>
-        <button type="button" class="btn btn-outline-primary btn-lg">Roys Deck</button>
+        <button type="button" id = "RoysDeck" class="btn btn-outline-primary btn-lg">
+            <a asp-controller="Deck" asp-action="Details">Roys Deck</a>
+            </button>
     </div>
 
     <div class=" d-flex flex-column mb-5">
-        <div class="card border-warning mb-3 " style="max-width: 20rem;">
+        <div class="card border-warning mb-3 " style="max-width:20rem; height:30rem">
             <h4 class="card-title text-center">Animals</h4>
-            <img src="/images/animals/animals.jpg" class="h-100" />
+            <img src="/images/animals/bluewhale.jpg"   />
         </div>
-        <button type="button" class="btn btn-outline-warning btn-lg">Animals</button>
+        <button type="button" id = "AnimalsDeck" class="btn btn-outline-warning btn-lg">Animals</button>
     </div>
 
 
     <div class=" d-flex flex-column mb-5">
-        <div class="card border-info mb-3" style="max-width: 20rem;">
+        <div class="card border-info mb-3 " style="max-width: 20rem; height:30rem ">
             <h4 class="card-title text-center">Ancient Gods </h4>
-            <img src="/images/GM/Aphrodite.jpeg" class="h-100" />
+            <img src="/images/GM/Aphrodite.jpeg"  />
         </div>
-        <button type="button" class="btn btn-outline-info btn-lg">Ancient Gods</button>
+        <button type="button" id = "GodsDeck" class="btn btn-outline-info btn-lg">Ancient Gods</button>
     </div>
 
 

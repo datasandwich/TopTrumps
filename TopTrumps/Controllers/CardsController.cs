@@ -141,7 +141,7 @@ namespace TopTrumps.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Card == null)
+            if (_context.Cards== null)
             {
                 return Problem("Entity set 'DeckDbContext.Card'  is null.");
             }
