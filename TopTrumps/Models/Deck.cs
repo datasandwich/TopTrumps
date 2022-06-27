@@ -1,5 +1,5 @@
 ﻿namespace TopTrumps.Models;
-using System.Data.SqlClient;
+using System.Linq;
 
 public class Deck
 {
