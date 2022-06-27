@@ -56,7 +56,7 @@ namespace TopTrumps.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Deck deck)
+        public async Task<IActionResult> Create([Bind("Id,Name,ImagePath")] Deck deck)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace TopTrumps.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Deck deck)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ImagePath")] Deck deck)
         {
             if (id != deck.Id)
             {
