@@ -3,16 +3,17 @@ using System.Data.SqlClient;
 
 public class Deck
 {
+    public Deck(int id, string name, string imagePath)
+    {  
+        Id = id;
+        Name = name;
+        ImagePath = imagePath;
+    }
     public int Id { get; set; }
-    public string Name { get; set; }
+    public string Name { get; set; } = "";
     private Queue<Card>? _cards { get; set; }
     private string? _owner { get; set; }
-    public Deck(Queue<Card>? cards, string? owner, string name)
-    {
-        _cards = cards;
-        _owner = owner;
-        Name = name;
-    }
+    public string ImagePath { get; set; } = "";
     public string? getOwner() { return _owner; }
     public Queue<Card>? getCards() { return _cards; }
 
@@ -50,6 +51,14 @@ public class Deck
             return shuffled;
         }
         return new Queue<Card>();
+    }
+    public void addcard(Card newcard)
+    {
+        _cards.Enqueue(newcard);
+    }
+    public Card getTopCard()
+    {
+        return _cards.Dequeue();
     }
     public async void Load(int deckNo)
     {

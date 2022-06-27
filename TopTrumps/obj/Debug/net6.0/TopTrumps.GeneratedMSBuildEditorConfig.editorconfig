@@ -175,6 +175,66 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Attributes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0cmlidXRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Attributes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0cmlidXRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Attributes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0cmlidXRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Attributes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0cmlidXRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Attributes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0cmlidXRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Cards/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Cards/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Cards/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Cards/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Cards/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Decks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVja3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Decks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVja3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Decks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVja3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Decks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVja3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Decks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVja3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/abrah/source/repos/TopTrumps1/TopTrumps/Views/Game/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

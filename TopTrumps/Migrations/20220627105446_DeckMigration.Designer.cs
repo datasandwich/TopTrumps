@@ -11,8 +11,8 @@ using TopTrumps.Data;
 namespace TopTrumps.Migrations
 {
     [DbContext(typeof(DeckDbContext))]
-    [Migration("20220624091539_init")]
-    partial class init
+    [Migration("20220627105446_DeckMigration")]
+    partial class DeckMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -22,6 +22,37 @@ namespace TopTrumps.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("TopTrumps.Models.Attributes", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
+
+                    b.Property<int>("Attr1")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Attr2")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Attr3")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Attr4")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Attr5")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Deckid")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Attribute");
+                });
 
             modelBuilder.Entity("TopTrumps.Models.Card", b =>
                 {
@@ -46,7 +77,7 @@ namespace TopTrumps.Migrations
                     b.Property<int>("Attr5")
                         .HasColumnType("int");
 
-                    b.Property<int>("DeckID")
+                    b.Property<int>("Deckid")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -65,6 +96,10 @@ namespace TopTrumps.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()

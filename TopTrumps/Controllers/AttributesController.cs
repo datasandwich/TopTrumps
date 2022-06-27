@@ -10,93 +10,87 @@ using TopTrumps.Models;
 
 namespace TopTrumps.Controllers
 {
-    public class DecksController : Controller
+    public class AttributesController : Controller
     {
         private readonly DeckDbContext _context;
 
-        public DecksController(DeckDbContext context)
+        public AttributesController(DeckDbContext context)
         {
             _context = context;
         }
 
-        // GET: Decks
+        // GET: Attributes
         public async Task<IActionResult> Index()
         {
-            Populate();
-            await _context.SaveChangesAsync();
-            return _context.Deck != null ?
-                          View(await _context.Deck.ToListAsync()) :
-                          Problem("Entity set 'DeckDbContext.Deck'  is null.");
+              return _context.Attribute != null ? 
+                          View(await _context.Attribute.ToListAsync()) :
+                          Problem("Entity set 'DeckDbContext.Attribute'  is null.");
         }
 
-        // GET: Decks/Details/5
+        // GET: Attributes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Deck == null)
+            if (id == null || _context.Attribute == null)
             {
                 return NotFound();
             }
 
-            var deck = await _context.Deck
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (deck == null)
+            var attribute = await _context.Attribute
+                .FirstOrDefaultAsync(m => m.ID == id);
+            if (attribute == null)
             {
                 return NotFound();
             }
-            Populate();
-            return View(deck);
+
+            return View(attribute);
         }
-        public void Populate()
-        {
-            var decks = _context.Deck
-                .FromSqlRaw("EXECUTE /SQL/DeckSelectionData.sql");
-        }
-        // GET: Decks/Create
+
+        // GET: Attributes/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Decks/Create
+        // POST: Attributes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,ImagePath")] Deck deck)
+        public async Task<IActionResult> Create([Bind("ID,Deckid,Attr1,Attr2,Attr3,Attr4,Attr5")] Attributes attribute)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(deck);
+                _context.Add(attribute);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(deck);
+            return View(attribute);
         }
 
-        // GET: Decks/Edit/5
+        // GET: Attributes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Deck == null)
+            if (id == null || _context.Attribute == null)
             {
                 return NotFound();
             }
 
-            var deck = await _context.Deck.FindAsync(id);
-            if (deck == null)
+            var attribute = await _context.Attribute.FindAsync(id);
+            if (attribute == null)
             {
                 return NotFound();
             }
-            return View(deck);
+            return View(attribute);
         }
 
-        // POST: Decks/Edit/5
+        // POST: Attributes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ImagePath")] Deck deck)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Deckid,Attr1,Attr2,Attr3,Attr4,Attr5")] Attributes attribute)
         {
-            if (id != deck.Id)
+            if (id != attribute.ID)
             {
                 return NotFound();
             }
@@ -105,12 +99,12 @@ namespace TopTrumps.Controllers
             {
                 try
                 {
-                    _context.Update(deck);
+                    _context.Update(attribute);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!DeckExists(deck.Id))
+                    if (!AttributeExists(attribute.ID))
                     {
                         return NotFound();
                     }
@@ -121,49 +115,49 @@ namespace TopTrumps.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(deck);
+            return View(attribute);
         }
 
-        // GET: Decks/Delete/5
+        // GET: Attributes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Deck == null)
+            if (id == null || _context.Attribute == null)
             {
                 return NotFound();
             }
 
-            var deck = await _context.Deck
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (deck == null)
+            var attribute = await _context.Attribute
+                .FirstOrDefaultAsync(m => m.ID == id);
+            if (attribute == null)
             {
                 return NotFound();
             }
 
-            return View(deck);
+            return View(attribute);
         }
 
-        // POST: Decks/Delete/5
+        // POST: Attributes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Deck == null)
+            if (_context.Attribute == null)
             {
-                return Problem("Entity set 'DeckDbContext.Deck'  is null.");
+                return Problem("Entity set 'DeckDbContext.Attribute'  is null.");
             }
-            var deck = await _context.Deck.FindAsync(id);
-            if (deck != null)
+            var attribute = await _context.Attribute.FindAsync(id);
+            if (attribute != null)
             {
-                _context.Deck.Remove(deck);
+                _context.Attribute.Remove(attribute);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool DeckExists(int id)
+        private bool AttributeExists(int id)
         {
-          return (_context.Deck?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Attribute?.Any(e => e.ID == id)).GetValueOrDefault();
         }
     }
 }

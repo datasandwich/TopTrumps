@@ -17,5 +17,7 @@ namespace TopTrumps.Data
         public DbSet<TopTrumps.Models.Deck>? Deck { get; set; }
 
         public DbSet<TopTrumps.Models.Card>? Card { get; set; }
+
+        public DbSet<TopTrumps.Models.Attributes>? Attribute { get; set; }
     }
 }

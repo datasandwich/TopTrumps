@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8V5rXkjSu64acXbmld3QqHlaEni5AyDvqudq6bfrIT4=",
+  "Hash": "4T1hFMFmgjS7mJR0rkphFd+6wb0vzJPd7Eo9V9ugeZ4=",
   "Source": "TopTrumps",
   "BasePath": "_content/TopTrumps",
   "Mode": "Default",
@@ -1936,6 +1936,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Planeswalkers\\Bolas.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\Planeswalkers\\CardArt.jpg",
+      "SourceId": "TopTrumps",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\",
+      "BasePath": "_content/TopTrumps",
+      "RelativePath": "images/Planeswalkers/CardArt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Planeswalkers\\CardArt.jpg"
     },
     {
       "Identity": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\wwwroot\\images\\Planeswalkers\\Chandra.jpg",
