@@ -5,8 +5,8 @@ namespace TopTrumps.Models
 	{
         public string Name { get; set; }
         public bool IsActivePlayer { get; set; }
-        public List<Deck> PlayerHand { get; set; }
-        public Player(string name, List<Deck> playerHand)
+        public Deck PlayerHand { get; set; }
+        public Player(string name, Deck playerHand)
         {
             Name = name;
             IsActivePlayer = false;

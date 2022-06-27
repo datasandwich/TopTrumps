@@ -6,7 +6,7 @@ namespace TopTrumps.Models
     {
         public bool Difficulty { get; set; }
 
-        public AI(string name, List<Deck> playerHand, bool difficulty) : base(name, playerHand)
+        public AI(string name, Deck playerHand, bool difficulty) : base(name, playerHand)
         {
             Difficulty = difficulty;
         }
