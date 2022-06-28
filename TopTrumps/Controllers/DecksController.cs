@@ -22,7 +22,6 @@ namespace TopTrumps.Controllers
         // GET: Decks
         public async Task<IActionResult> Index()
         {
-            Populate();
             await _context.SaveChangesAsync();
             return _context.Deck != null ?
                           View(await _context.Deck.ToListAsync()) :
@@ -43,12 +42,7 @@ namespace TopTrumps.Controllers
             {
                 return NotFound();
             }
-            Populate();
             return View(deck);
-        }
-        public void Populate()
-        {
-            var decks = _context.Deck.CreateDbCommand().ExecuteNonQuery;
         }
         // GET: Decks/Create
         public IActionResult Create()

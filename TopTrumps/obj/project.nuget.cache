@@ -194,12 +194,5 @@
     "C:\\Users\\magda\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\magda\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'expectedPackageFiles', line 197, position 0."
-    }
-  ]
+  "logs": []
 }

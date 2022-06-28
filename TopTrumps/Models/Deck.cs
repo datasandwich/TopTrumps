@@ -60,14 +60,8 @@ public class Deck
     {
         return _cards.Dequeue();
     }
-    public async void Load(int deckNo)
+    public void Load(Card card)
     {
-
-        Queue<Card> cards = new Queue<Card>();
-        for (int i = 0; i < 20; i++)
-        {
-
-        }
-        
+        _cards.Enqueue(card);
     }
 }
