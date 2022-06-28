@@ -8,31 +8,31 @@
     <section class="  d-flex  flex-wrap gy-5 justify-content-between mb-5 center">
         @{
    var color = "";
-                            @foreach(var obj in Model)
+    @foreach(var obj in Model)
          {    
-                            <div class="d-flex flex-column mb-5">
+            <div class="d-flex flex-column mb-5">
                                 
-                               @if(obj.Id ==1){
+                @if(obj.Id ==1){
                     color = "primary";
-                }
-                                 @if(obj.Id ==2){
+}
+                @if(obj.Id ==2){
                     color = "warning";
-                }
-                                 @if(obj.Id ==3){
+}
+                @if(obj.Id ==3){
                     color = "info";
-                }
+}
 
-                            <div class="card mb-3 border-@color" style="max-width:20rem; height:30rem">
+            <div class="card mb-3 border-@color" style="max-width:20rem; height:30rem">
                                      
-                                <h4 class="card-title text-center">@obj.Name</h4>
-                                <img src=@obj.ImagePath class="h-100" style="object-fit:cover" />
-                            </div>
-                            <button type="button" id = @obj.Id class="btn btn-outline-@color btn-lg">
+                <h4 class="card-title text-center">@obj.Name</h4>
+                <img src=@obj.ImagePath class="h-100" style="object-fit:cover" />
+            </div>
+            <button type="button" id = @obj.Id class="btn btn-outline-@color btn-lg">
                                
-                                    @obj.Name
+                    @obj.Name
                                   
-                                </button>
-                        </div> 
+            </button>
+        </div> 
     }
         
         }
@@ -50,7 +50,7 @@
             </div>
 
             <button type="button" value="startGame" class="btn btn-outline-primary btn-lg" >
-                <a asp-controller="Game" asp-action="Index">Start Game</a></button>
+                <a asp-controller="Game" asp-action="Index()">Start Game</a></button>
               
     </section>
     }
