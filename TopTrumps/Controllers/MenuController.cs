@@ -9,6 +9,8 @@ namespace TopTrumps.Controllers
 
         //here we are getting database into _db variable 
         private readonly DeckDbContext _db;
+        int deck;
+        string player;
 
         //populate local variable_db with db object fron services
         public MenuController(DeckDbContext db)
@@ -27,5 +29,33 @@ namespace TopTrumps.Controllers
             return View(objDeckList);
 
         }
+
+        public IActionResult checkDeck(int button)
+        {
+
+            deck = button;
+  
+            return RedirectToAction("Index");
+        }
+        public IActionResult chooseMode(string button)
+
+        {
+
+            player = button;
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult startGame()
+
+        {
+            if(deck!=null && player != null)
+            {
+                return RedirectToAction("Index", "Game");
+            }
+
+            return View("Index");
+        }
     }
+
 }
