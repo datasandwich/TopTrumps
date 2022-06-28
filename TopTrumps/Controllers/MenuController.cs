@@ -1,17 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TopTrumps.Data;
+using TopTrumps.Models;
 
 namespace TopTrumps.Controllers
 {
     public class MenuController : Controller
     {
-        //game controller will be returning the data from data base 
+
         //here we are getting database into _db variable 
-        //private readonly ApplicationDbContext _db;
-        //    //we are requesting data from decks database-chage the name 
-        //    public MenuController(ApplicationDbContext db)
-        //{
-        //        _db=db
-        //}
+        private readonly DeckDbContext _db;
+
+        //populate local variable_db with db object fron services
+        public MenuController(DeckDbContext db)
+        {
+            _db = db;
+        }
 
 
         //var decksList = _db.DeckSelection.ToList();
@@ -19,11 +22,10 @@ namespace TopTrumps.Controllers
         //var attributes = _db.Attributes.ToList();
         public IActionResult Index()
         {
+            IEnumerable<Deck> objDeckList = _db.Deck;
 
-            return View();
+            return View(objDeckList);
+
         }
-
-
-
     }
 }

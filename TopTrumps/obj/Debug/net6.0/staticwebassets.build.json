@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "//sNQjBcO7YTm431mIeMLC2/0Dd/aw1rM1/IFszzdoM=",
+  "Hash": "in8x2dLtmqbDsT6Fc9dbL1avLEakimhk/eqCddBNRas=",
   "Source": "TopTrumps",
   "BasePath": "_content/TopTrumps",
   "Mode": "Default",
@@ -1173,12 +1173,12 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\anaconda.jpg"
     },
     {
-      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\animals\\animals.jpg",
+      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\animals\\backImage.jpg",
       "SourceId": "TopTrumps",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
       "BasePath": "_content/TopTrumps",
-      "RelativePath": "images/animals/animals.jpg",
+      "RelativePath": "images/animals/backImage.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,7 +1187,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\animals\\animals.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\animals\\backImage.jpg"
     },
     {
       "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\animals\\bluewhale.jpg",
@@ -1919,6 +1919,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Planeswalkers\\Ashiok.jpg"
+    },
+    {
+      "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\Planeswalkers\\BackImage.jpg",
+      "SourceId": "TopTrumps",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\",
+      "BasePath": "_content/TopTrumps",
+      "RelativePath": "images/Planeswalkers/BackImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Planeswalkers\\BackImage.jpg"
     },
     {
       "Identity": "D:\\C#\\NewTopTrumps\\TopTrumps\\wwwroot\\images\\Planeswalkers\\Bolas.jpg",
