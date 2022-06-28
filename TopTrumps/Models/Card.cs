@@ -41,5 +41,13 @@
                 default: return 0;
             }
         }
+        public string getImage()
+        {
+            return Imagepath;
+        }
+        public string getDesc()
+        {
+            return Description;
+        }
     }
 }
