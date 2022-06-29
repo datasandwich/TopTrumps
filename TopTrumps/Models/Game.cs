@@ -10,8 +10,12 @@ namespace TopTrumps.Models
         }
         public void startGame()
         {
+
             /*
-            Deck activeDeck = new Deck(cards, owner, name);
+             * 
+             * Pseudocode
+             * 
+            Deck activeDeck = Deck.Load();
             Player playerOne = new Player("Roy", playerOneHand);
             Player playerTwo = new AI("AI", playerTwoHand, difficulty);
 
@@ -19,25 +23,37 @@ namespace TopTrumps.Models
 
             bool gameOver = false;
 
-            
             while (!gameOver){
-            
-            Card playerOneTopCard = playerOne.dequeue(playerOneHand);
-            Card playerTwoTopCard = playerTwo.dequeue(playerTwoHand);
 
-            if (playerOne.IsActivePlayer){
+                * Draw a card from top of deck.
+                Card playerOneTopCard = playerOne.dequeue(playerOneHand);
+                Card playerTwoTopCard = playerTwo.dequeue(playerTwoHand);
 
-            } else {
+                * Decide which player is choosing the attribute for this round.
+                if (playerOne.IsActivePlayer){
+                    chosenAttribute = playerOne.input();
+                } else {chosenAttribute = playerTwo.choose();}
 
-            }
+                * Compare attribute values to decide round winner.
+                if (playerOneTopCard.chosenAttribute > playerTwoTopCard.chosenAttribute){
+                    playerOneHand.Add(playerTwoTopCard);
+                    playerOne.isActivePlayer = true;
+                    playerTwo.isActivePlayer = false;
+                } else {
+                    playerTwoHand.Add(playerOneTopCard);
+                    playerTwo.isActivePlayer = true;
+                    playerOne.isActivePlayer = false;
+                }
 
-            if (playerOne.playerOneHand.Count == 0){
-                Console.WriteLine("Player Two Wins!");
-                gameOver = true;
-            } else {
-                Console.WriteLine("Player One Wins!"):
-                gameOver = true;
-            }
+
+                * Decide Winner
+                if (playerOne.playerOneHand.Count == 0){
+                    Console.WriteLine("Player Two Wins!");
+                    gameOver = true;
+                } else {
+                    Console.WriteLine("Player One Wins!"):
+                    gameOver = true;
+                }
             }
 
             */

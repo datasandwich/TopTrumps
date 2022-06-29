@@ -63,5 +63,13 @@ public class Deck
     public void Load(Card card)
     {
         _cards.Enqueue(card);
+
+
+        Queue<Card> cards = new Queue<Card>();
+        for (int i = 0; i < 20; i++)
+        {
+            
+        }
+        
     }
 }

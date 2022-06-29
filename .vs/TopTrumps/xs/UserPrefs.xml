@@ -1,21 +1,30 @@
 ﻿<Properties StartupConfiguration="{9F36E94D-016E-4498-87CE-4BC87CE1CE60}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TopTrumps PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TopTrumps/Models/Game.cs">
+    <Files>
+      <File FileName="TopTrumps/Models/AI.cs" Line="1" Column="1" />
+      <File FileName="TopTrumps/Models/Attribute.cs" Line="1" Column="1" />
+      <File FileName="TopTrumps/Models/Attributes.cs" Line="1" Column="1" />
+      <File FileName="TopTrumps/Models/Card.cs" Line="1" Column="1" />
+      <File FileName="TopTrumps/Models/Deck.cs" Line="1" Column="1" />
+      <File FileName="TopTrumps/Models/Game.cs" Line="13" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TopTrumps" expanded="True" selected="True">
+          <Node name="TopTrumps" expanded="True">
             <Node name="TopTrumps" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Identity" expanded="True">
-                  <Node name="Pages" expanded="True" />
-                </Node>
-              </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Game.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
                 <Node name="Menu" expanded="True" />
-                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -27,10 +36,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TopTrumps PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

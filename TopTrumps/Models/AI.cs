@@ -11,20 +11,11 @@ namespace TopTrumps.Models
             Difficulty = difficulty;
         }
 
-        public void play()
+        
+        public string choose()
         {
-            if (!IsActivePlayer)
-            {
-                //Check attribute selected by player
-            } else
-            {
-                string chosenAttribute = computeChoice();
-            }
-        }
-        public string computeChoice()
-        {
-            string computation = "";
-            return computation;
+            string choice = "";
+            return choice;
         }
     }
 }
