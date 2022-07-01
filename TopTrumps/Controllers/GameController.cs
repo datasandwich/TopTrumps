@@ -17,11 +17,9 @@ namespace TopTrumps.Controllers
 
         public int deck;
         public string mode;
-        public Deck allCards = new(0,"FullDeck","");
+        public Game game = new(new(0,0,"","","","",""),new("",new(0,"","")),new("",new(0,"","")),null);
+        public Deck allCards;
         public Attributes attributes;
-        public Player player1 = new("",new(0,"",""));
-        public Player player2;
-        public Deck? inPlay;
         public IActionResult Index()
         {
             //Player1 and Player2 hands are face down
@@ -32,7 +30,7 @@ namespace TopTrumps.Controllers
             //categories compared, a player wins
             //winningplayer.addCard(each inPlay)
             //inPlay = null
-            return View();
+            return View(game);
         }
 
         public async Task<IActionResult> GetDeckIdAndMode(string deckIdButton, string modeChoice)
@@ -47,54 +45,17 @@ namespace TopTrumps.Controllers
                 //gets the cards for the chosen deck
                 await setDeck();
                 await Populate(allCards);
-                //shuffles
-                allCards.getShuffled();
-                //distributes the cards evenly between the 2 players
-                if (mode == "Local")
-                {
-                    player2 = new Player("", new(0, "", ""));
-                }
-                else if (mode == "EasyAI")
-                {
-                    player2 = new AI("TrumpNovice", new(0, "", ""), false);
-                }
-                else
-                {
-                    player2 = new AI("TrumpMaster", new(0, "", ""), true);
-                }
-                if (allCards.Id != 0)
-                {
-                    int totcards = allCards.getCards().Count / 2;
-                    for (int i = 0; i < totcards; i++)
-                    {
-                        player1.PlayerHand.addcard(allCards.getTopCard());
-                        player2.PlayerHand.addcard(allCards.getTopCard());
-                    }
-                }
                 //sets the attribute names
                 await getAttributes();
-                if(mode == "Local")
-                    //Coin toss to see who goes first
-                {
-                    Random coinToss = new();
-                    int result = coinToss.Next(2);
-                    switch (result)
-                    {
-                        case 0: player1.IsActivePlayer = true; break;
-                        case 1: player2.IsActivePlayer = true; break;
-                    }
-                }
-                else
-                //Real player goes first
-                {
-                    player1.IsActivePlayer = true;
-                }
+                game.attributes = attributes;
+                game.startGame(mode, allCards);
+                
                 //START The GAME
                       
                 return View("Index");
             }
 
-            return RedirectToAction("Index","Game");
+            return View("Index","Game");
         }
         public async Task setDeck()
         {

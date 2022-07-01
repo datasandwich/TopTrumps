@@ -1,5 +1,5 @@
 ﻿
-@model TopTrumps.Models.Deck
+@model TopTrumps.Models.Game
 @{
     ViewData["Title"] = "Index";
 }
@@ -12,8 +12,8 @@
     
       
     
-            @Html.DisplayFor(model => model.Name)
-             @Html.DisplayFor(model => model.ImagePath)
+            @Html.DisplayFor(model => model.player1.Name)
+             @Html.DisplayFor(model => model.player1.PlayerHand.ImagePath)
      
       
   @*          @Html.DisplayNameFor(model => model.Attr1)*@

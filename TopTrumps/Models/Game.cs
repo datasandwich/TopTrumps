@@ -3,14 +3,62 @@ namespace TopTrumps.Models
 {
     public class Game
     {
+        public Attributes attributes { get; set; }
+        public Player player1 { get; set; } = new("", new(0, "", ""));
+        public Player player2 { get; set; }
+        public Deck? inPlay { get; set; }
 
-        public Game()
+        public Game(Attributes attributes, Player player1, Player player2, Deck? inPlay)
         {
-            
+            this.attributes = attributes;
+            this.player1 = player1;
+            this.player2 = player2;
+            this.inPlay = inPlay;
         }
-        public void startGame()
-        {
 
+        public void startGame(string mode, Deck deck)
+        {
+            //shuffles
+            deck.getShuffled();
+            //distributes the cards evenly between the 2 players
+            if (mode == "Local")
+            {
+                player2 = new Player("", new(0, "", ""));
+            }
+            else if (mode == "EasyAI")
+            {
+                player2 = new AI("TrumpNovice", new(0, "", ""), false);
+            }
+            else
+            {
+                player2 = new AI("TrumpMaster", new(0, "", ""), true);
+            }
+            if (deck.Id != 0)
+            {
+                int totcards = deck.getCards().Count / 2;
+                for (int i = 0; i < totcards; i++)
+                {
+                    player1.PlayerHand.addcard(deck.getTopCard());
+                    player2.PlayerHand.addcard(deck.getTopCard());
+                }
+            }
+
+            if (mode == "Local")
+            //Coin toss to see who goes first
+            {
+                Random coinToss = new();
+                int result = coinToss.Next(2);
+                switch (result)
+                {
+                    case 0: player1.IsActivePlayer = true; break;
+                    case 1: player2.IsActivePlayer = true; break;
+                }
+            }
+            else
+            //Real player goes first
+            {
+                player1.IsActivePlayer = true;
+            }
             /*
              * 
              * Pseudocode
