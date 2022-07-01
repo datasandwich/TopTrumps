@@ -17,12 +17,9 @@ namespace TopTrumps.Controllers
 
         public int deck;
         public string mode;
-        public Deck allCards = new(0,"FullDeck","");
+        public Game game = new(new(0,0,"","","","",""),new("",new(0,"","")),new("",new(0,"","")),null);
+        public Deck allCards;
         public Attributes attributes;
-        public Player player1 = new("",new(0,"",""));
-        public Player player2 = new("", new(0, "", ""));
-        public AI AIPlayer = new("", new(0, "", ""),false);
-        public Deck? inPlay;
         public IActionResult Index()
         {
             //Player1 and Player2 hands are face down
@@ -33,7 +30,7 @@ namespace TopTrumps.Controllers
             //categories compared, a player wins
             //winningplayer.addCard(each inPlay)
             //inPlay = null
-            return View();
+            return View(game);
         }
 
         public async Task<IActionResult> GetDeckIdAndMode(string deckIdButton, string modeChoice)
@@ -48,47 +45,17 @@ namespace TopTrumps.Controllers
                 //gets the cards for the chosen deck
                 await setDeck();
                 await Populate(allCards);
-                //shuffles
-                allCards.getShuffled();
-                //distributes the cards evenly between the 2 players
-                if (allCards.Id != 0)
-                {
-                    int totcards = allCards.getCards().Count / 2;
-                    for (int i = 0; i < totcards; i++)
-                    {
-                        player1.PlayerHand.addcard(allCards.getTopCard());
-                        player2.PlayerHand.addcard(allCards.getTopCard());
-                    }
-                }
                 //sets the attribute names
-                getAttributes();
-                if(mode == "Local")
-                    //Coin toss to see who goes first
-                {
-                    Random coinToss = new();
-                    int result = coinToss.Next(2);
-                    switch (result)
-                    {
-                        case 0: player1.IsActivePlayer = true; break;
-                        case 1: player2.IsActivePlayer = true; break;
-                    }
-                }
-                else
-                //Real player goes first
-                {
-                    player1.IsActivePlayer = true;
-                    int p2cards = player2.PlayerHand.getCards().Count;
-                    for (int i = 0; i < p2cards; i++)
-                    {
-                        AIPlayer.PlayerHand.addcard(player2.PlayerHand.getTopCard());
-                    }
-                }
+                await getAttributes();
+                game.attributes = attributes;
+                game.startGame(mode, allCards);
+                
                 //START The GAME
                       
-                return View();
+                return View("Index");
             }
 
-            return View("Index","Menu");
+            return View("Index","Game");
         }
         public async Task setDeck()
         {
@@ -119,9 +86,10 @@ namespace TopTrumps.Controllers
                 }
             }while (cards == null);
         }
-        public async void getAttributes()
+        public async Task getAttributes()
         {
-            foreach(Attributes a in await _context.Attribute.FromSqlRaw($"SELECT * FROM Attribute WHERE deckid = {deck}").ToListAsync())
+            var attribute = await _context.Attribute.FromSqlRaw($"SELECT * FROM Attribute WHERE deckid = {deck}").ToListAsync();
+            foreach(Attributes a in attribute)
             {
                 attributes = a;
             }
