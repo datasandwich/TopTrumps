@@ -85,7 +85,7 @@ namespace TopTrumps.Controllers
                 }
                 //START The GAME
                       
-                return View();
+                return RedirectToAction("Index", "Game");
             }
 
             return View("Index","Menu");
