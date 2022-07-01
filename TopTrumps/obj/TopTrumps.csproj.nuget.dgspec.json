@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\NewTopTrumps\\TopTrumps\\TopTrumps.csproj": {}
+    "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\TopTrumps.csproj": {}
   },
   "projects": {
-    "D:\\C#\\NewTopTrumps\\TopTrumps\\TopTrumps.csproj": {
+    "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\TopTrumps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\NewTopTrumps\\TopTrumps\\TopTrumps.csproj",
+        "projectUniqueName": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\TopTrumps.csproj",
         "projectName": "TopTrumps",
-        "projectPath": "D:\\C#\\NewTopTrumps\\TopTrumps\\TopTrumps.csproj",
-        "packagesPath": "C:\\Users\\magda\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\NewTopTrumps\\TopTrumps\\obj\\",
+        "projectPath": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\TopTrumps.csproj",
+        "packagesPath": "C:\\Users\\abrah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\magda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
