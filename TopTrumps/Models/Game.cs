@@ -61,6 +61,7 @@ namespace TopTrumps.Models
             {
                 player1.IsActivePlayer = true;
             }
+            
             /*
              * 
              * Pseudocode
@@ -108,7 +109,9 @@ namespace TopTrumps.Models
 
             */
         }
-        }
+        public void nextRound() { }
+        public void Endgame() { }
     }
+}
 
 
