@@ -12,7 +12,7 @@ namespace TopTrumps.Models
         }
 
         
-        public string choose()
+        public string choose(Card card)
         {
             string choice = "";
             return choice;

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TopTrumps.Data;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using TopTrumps.Models;
 
 namespace TopTrumps.Controllers
 {
@@ -17,8 +17,22 @@ namespace TopTrumps.Controllers
 
         public int deck;
         public string mode;
+        public Deck allCards = new(0,"FullDeck","");
+        public Attributes attributes;
+        public Player player1 = new("",new(0,"",""));
+        public Player player2 = new("", new(0, "", ""));
+        public AI AIPlayer = new("", new(0, "", ""),false);
+        public Deck? inPlay;
         public IActionResult Index()
         {
+            //Player1 and Player2 hands are face down
+            //player1.getTopCard is revealed and put into inPlay
+            //View updated (inPlay.getCards(0))
+            //player1 selects category
+            //player2.getTopCard is revealed and put into inPlay
+            //categories compared, a player wins
+            //winningplayer.addCard(each inPlay)
+            //inPlay = null
             return View();
         }
 
@@ -31,8 +45,44 @@ namespace TopTrumps.Controllers
 
             if (deck != null && mode != null)
             {
-                
-
+                //gets the cards for the chosen deck
+                await setDeck();
+                await Populate(allCards);
+                //shuffles
+                allCards.getShuffled();
+                //distributes the cards evenly between the 2 players
+                if (allCards.Id != 0)
+                {
+                    int totcards = allCards.getCards().Count / 2;
+                    for (int i = 0; i < totcards; i++)
+                    {
+                        player1.PlayerHand.addcard(allCards.getTopCard());
+                        player2.PlayerHand.addcard(allCards.getTopCard());
+                    }
+                }
+                //sets the attribute names
+                getAttributes();
+                if(mode == "Local")
+                    //Coin toss to see who goes first
+                {
+                    Random coinToss = new();
+                    int result = coinToss.Next(2);
+                    switch (result)
+                    {
+                        case 0: player1.IsActivePlayer = true; break;
+                        case 1: player2.IsActivePlayer = true; break;
+                    }
+                }
+                else
+                //Real player goes first
+                {
+                    player1.IsActivePlayer = true;
+                    int p2cards = player2.PlayerHand.getCards().Count;
+                    for (int i = 0; i < p2cards; i++)
+                    {
+                        AIPlayer.PlayerHand.addcard(player2.PlayerHand.getTopCard());
+                    }
+                }
                 //START The GAME
                       
                 return View();
@@ -40,8 +90,42 @@ namespace TopTrumps.Controllers
 
             return View("Index","Menu");
         }
-
-
+        public async Task setDeck()
+        {
+            var decks = await _context.Deck.FromSqlRaw($"SELECT * FROM Deck WHERE id = {deck}").ToListAsync();
+            do
+            {
+                if (decks != null)
+                {
+                    foreach (var adeck in decks)
+                    {
+                        allCards = adeck;
+                    }
+                }
+            }while (decks == null);
+        }
+        //Gets a list of cards in adeck(id=deckid)
+        public async Task Populate(Deck adeck)
+        {
+            var cards = await _context.Card.FromSqlRaw($"SELECT * FROM card WHERE deckid = {adeck.Id}").ToListAsync();
+            do
+            {
+                if (cards != null)
+                {
+                    foreach (Card card in cards)
+                    {
+                        adeck.addcard(card);
+                    }
+                }
+            }while (cards == null);
+        }
+        public async void getAttributes()
+        {
+            foreach(Attributes a in await _context.Attribute.FromSqlRaw($"SELECT * FROM Attribute WHERE deckid = {deck}").ToListAsync())
+            {
+                attributes = a;
+            }
+        }
 
         public async Task<IActionResult> Details(int? id)
         {
