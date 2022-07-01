@@ -7,3 +7,11 @@
 /Deck(MTG)_log.ldf
 /TopTrumpsDb.mdf
 /TopTrumpsDb_log.ldf
+TopTrumps/bin/Debug/net6.0/TopTrumps.staticwebassets.runtime.json
+TopTrumps/obj/Debug/net6.0/TopTrumps.pdb
+TopTrumps/obj/staticwebassets.pack.sentinel
+TopTrumps/obj/Debug/net6.0/TopTrumps.csproj.FileListAbsolute.txt
+TopTrumps/obj/Debug/net6.0/TopTrumps.dll
+TopTrumps/obj/Debug/net6.0/refint/TopTrumps.dll
+TopTrumps/obj/Debug/net6.0/staticwebassets.build.json
+TopTrumps/obj/Debug/net6.0/staticwebassets.development.json

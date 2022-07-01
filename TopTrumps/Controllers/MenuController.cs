@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TopTrumps.Data;
 using TopTrumps.Models;
 
@@ -9,8 +10,7 @@ namespace TopTrumps.Controllers
 
         //here we are getting database into _db variable 
         private readonly DeckDbContext _db;
-        int deck;
-        string player;
+     
 
         //populate local variable_db with db object fron services
         public MenuController(DeckDbContext db)
@@ -19,43 +19,66 @@ namespace TopTrumps.Controllers
         }
 
 
+            //int deck;
+            //string player;
+            //string btState = "active";
+        
+
+       
+
+        //int deck;
+        //string player;
+        //string btState = "active";
+
         //var decksList = _db.DeckSelection.ToList();
         //var cards = _db.Cards.ToList();
         //var attributes = _db.Attributes.ToList();
-        public IActionResult Index()
+        //public IActionResult Index()
+        //{
+        //    IEnumerable<Deck> objDeckList = _db.Deck;
+
+        //    return View(objDeckList);
+
+        //}
+        public async Task<IActionResult> Index()
         {
-            IEnumerable<Deck> objDeckList = _db.Deck;
-
-            return View(objDeckList);
-
+            await _db.SaveChangesAsync();
+            return _db.Deck != null ?
+                          View(await _db.Deck.ToListAsync()) :
+                          Problem("Entity set 'DeckDbContext.Deck'  is null.");
         }
 
-        public IActionResult checkDeck(int button)
-        {
+        //public IActionResult checkDeck(string button)
+        //{
 
-            deck = button;
-  
-            return RedirectToAction("Index");
-        }
-        public IActionResult chooseMode(string button)
+        //    deck = Int32.Parse(button);
 
-        {
+        //    return View("Index", btState);
+        //}
+        //public IActionResult chooseMode(string button)
 
-            player = button;
+        //{
 
-            return RedirectToAction("Index");
-        }
+        //    player = button;
 
-        public IActionResult startGame()
+        //    return RedirectToAction("Index");
+        //}
 
-        {
-            if(deck!=null && player != null)
-            {
-                return RedirectToAction("Index", "Game");
-            }
+        //public IActionResult ProcessForm(string deckId, string playerId)
 
-            return View("Index");
-        }
+        //{
+
+        //    deck = Int32.Parse(deckId);
+        //    player = playerId;
+
+        //    if (deck!=null && player != null)
+        //    {
+        //        Choice choice = new Choice(deck,player);
+        //        return RedirectToAction("Index", "Game");
+        //    }
+
+        //    return View("Index");
+        //}
     }
 
 }
