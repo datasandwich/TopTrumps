@@ -134,21 +134,7 @@ namespace TopTrumps.Controllers
             }
         }
 
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Deck == null)
-            {
-                return NotFound();
-            }
-
-            var deck = await _context.Deck
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (deck == null)
-            {
-                return NotFound();
-            }
-            return View(deck);
-        }
+     
 
     }
 }
