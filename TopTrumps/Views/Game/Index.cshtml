@@ -3,18 +3,18 @@
 @{
     ViewData["Title"] = "Index";
 }
-
 <h1>Game On</h1>
-
 <div>
     
     
-    
       
-    
-            @Html.DisplayFor(model => model.player1.Name)
+        <button class=" btn-primary">
+            @Html.DisplayFor(model => model.player1.PlayerHand.PeekCard().Attr1)
+        </button>
              @Html.DisplayFor(model => model.player1.PlayerHand.ImagePath)
-     
+        <button class="btn-primary">
+            @Html.DisplayFor(model => model.player2.PlayerHand.PeekCard().Imagepath)
+        </button>
       
   @*          @Html.DisplayNameFor(model => model.Attr1)*@
    

@@ -7,19 +7,21 @@ namespace TopTrumps.Models
         public Player player1 { get; set; } = new("", new(0, "", ""));
         public Player player2 { get; set; }
         public Deck? inPlay { get; set; }
+        public string mode { get; set; }
 
-        public Game(Attributes attributes, Player player1, Player player2, Deck? inPlay)
+        public Game(Attributes attributes, Player player1, Player player2, Deck? inPlay, string mode)
         {
             this.attributes = attributes;
             this.player1 = player1;
             this.player2 = player2;
             this.inPlay = inPlay;
+            this.mode = mode;
         }
 
-        public void startGame(string mode, Deck deck)
+        public void startGame()
         {
             //shuffles
-            deck.getShuffled();
+            inPlay.getShuffled();
             //distributes the cards evenly between the 2 players
             if (mode == "Local")
             {
@@ -33,13 +35,13 @@ namespace TopTrumps.Models
             {
                 player2 = new AI("TrumpMaster", new(0, "", ""), true);
             }
-            if (deck.Id != 0)
+            if (inPlay.Id != 0)
             {
-                int totcards = deck.getCards().Count / 2;
+                int totcards = inPlay.getCards().Count / 2;
                 for (int i = 0; i < totcards; i++)
                 {
-                    player1.PlayerHand.addcard(deck.getTopCard());
-                    player2.PlayerHand.addcard(deck.getTopCard());
+                    player1.PlayerHand.addcard(inPlay.getTopCard());
+                    player2.PlayerHand.addcard(inPlay.getTopCard());
                 }
             }
 

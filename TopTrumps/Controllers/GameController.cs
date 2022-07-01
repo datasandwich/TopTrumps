@@ -17,7 +17,7 @@ namespace TopTrumps.Controllers
 
         public int deck;
         public string mode;
-        public Game game = new(new(0,0,"","","","",""),new("",new(0,"","")),new("",new(0,"","")),null);
+        public Game game = new(new(0,0,"","","","",""),new("",new(0,"","")),new("",new(0,"","")),null,"");
         public Deck allCards;
         public Attributes attributes;
         public IActionResult Index()
@@ -30,7 +30,7 @@ namespace TopTrumps.Controllers
             //categories compared, a player wins
             //winningplayer.addCard(each inPlay)
             //inPlay = null
-            return View(game);
+            return View();
         }
 
         public async Task<IActionResult> GetDeckIdAndMode(string deckIdButton, string modeChoice)
@@ -44,15 +44,14 @@ namespace TopTrumps.Controllers
             {
                 //gets the cards for the chosen deck
                 await setDeck();
-                await Populate(allCards);
+                await Populate(game.inPlay);
                 //sets the attribute names
                 await getAttributes();
-                game.attributes = attributes;
-                game.startGame(mode, allCards);
+                game.startGame();
                 
                 //START The GAME
                       
-                return View("Index");
+                return View("Index",game);
             }
 
             return View("Index","Game");
@@ -66,7 +65,7 @@ namespace TopTrumps.Controllers
                 {
                     foreach (var adeck in decks)
                     {
-                        allCards = adeck;
+                        game.inPlay = adeck;
                     }
                 }
             }while (decks == null);
@@ -91,7 +90,7 @@ namespace TopTrumps.Controllers
             var attribute = await _context.Attribute.FromSqlRaw($"SELECT * FROM Attribute WHERE deckid = {deck}").ToListAsync();
             foreach(Attributes a in attribute)
             {
-                attributes = a;
+                game.attributes = a;
             }
         }
 
