@@ -127,7 +127,8 @@ namespace TopTrumps.Controllers
         }
         public async void getAttributes()
         {
-            foreach(Attributes a in await _context.Attribute.FromSqlRaw($"SELECT * FROM Attribute WHERE deckid = {deck}").ToListAsync())
+            var attribute = await _context.Attribute.FromSqlRaw($"SELECT * FROM Attribute WHERE deckid = {deck}").ToListAsync();
+            foreach(Attributes a in attribute)
             {
                 attributes = a;
             }
