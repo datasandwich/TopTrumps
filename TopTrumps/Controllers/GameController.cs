@@ -49,6 +49,7 @@ namespace TopTrumps.Controllers
                 await Populate(allCards);
                 //shuffles
                 allCards.getShuffled();
+                await getAttributes();
                 //distributes the cards evenly between the 2 players
                 if (mode == "Local")
                 {
