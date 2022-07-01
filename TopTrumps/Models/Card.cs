@@ -31,21 +31,21 @@
         }
         public int getattr(int attributeNumber)
         {
-            switch (attributeNumber)
+            return attributeNumber switch
             {
-                case 1: return Attr1;
-                case 2: return Attr2;
-                case 3: return Attr3;
-                case 4: return Attr4;
-                case 5: return Attr5;
-                default: return 0;
-            }
+                1 => Attr1,
+                2 => Attr2,
+                3 => Attr3,
+                4 => Attr4,
+                5 => Attr5,
+                _ => 0,
+            };
         }
         public string getImage()
         {
             return Imagepath;
         }
-        public string getDesc()
+        public string? getDesc()
         {
             return Description;
         }

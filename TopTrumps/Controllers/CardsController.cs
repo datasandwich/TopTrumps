@@ -18,16 +18,6 @@ namespace TopTrumps.Controllers
         {
             _context = context;
         }
-        //Gets a list of cards in deck(id=deckid)
-        public async void Populate(Deck deck)
-        {
-            var cards = await _context.Card.FromSqlRaw($"SELECT * FROM card WHERE deckid = {deck.Id-1}").ToListAsync();
-            Queue<Card> queue = new();
-            foreach(Card card in cards)
-            {
-                deck.Load(card);
-            }
-        }
 
         // GET: Cards
         public async Task<IActionResult> Index()
