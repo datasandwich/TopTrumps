@@ -29,11 +29,11 @@ namespace TopTrumps.Models
             }
             else if (mode == "EasyAI")
             {
-                player2 = new AI("TrumpNovice", new(0, "", ""), "easy");
+                player2 = new AI("TrumpNovice", new(0, "", ""), "easy",inPlay);
             }
             else
             {
-                player2 = new AI("TrumpMaster", new(0, "", ""), "hard");
+                player2 = new AI("TrumpMaster", new(0, "", ""), "hard",inPlay);
             }
             if (inPlay.Id != 0)
             {
