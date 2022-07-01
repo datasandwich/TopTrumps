@@ -35,7 +35,7 @@ namespace TopTrumps.Controllers
 
                 //START The GAME
                       
-                return View("Index", "Game");
+                return View();
             }
 
             return View("Index","Menu");

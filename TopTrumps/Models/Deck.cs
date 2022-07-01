@@ -17,6 +17,8 @@ public class Deck
     public string? getOwner() { return _owner; }
     public Queue<Card>? getCards() { return _cards; }
 
+    //I need deck attributes her??? 
+
     public void getShuffled()
     {
         if (_cards != null)
