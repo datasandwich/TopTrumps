@@ -55,4 +55,8 @@ public class Deck
     {
         return _cards.Dequeue();
     }
+    public Card PeekCard()
+    {
+        return _cards.Peek();
+    }
 }
