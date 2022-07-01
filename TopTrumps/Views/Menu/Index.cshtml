@@ -1,95 +1,69 @@
 ﻿@model  IEnumerable<Deck> 
+
 @{
     ViewData["Title"] = "Index";
 }
 
 <h1 class="text-center mt-5 mb-5">Select your deck</h1>
-@{
-    <section class="  d-flex  flex-wrap gy-5 justify-content-between mb-5 center">
-        @{
-   var color = "";
-    @foreach(var obj in Model)
-         {    
-            <div class="d-flex flex-column mb-5">
-                                
-                @if(obj.Id ==1){
-                    color = "primary";
-}
-                @if(obj.Id ==2){
-                    color = "warning";
-}
-                @if(obj.Id ==3){
-                    color = "info";
-}
 
-            <div class="card mb-3 border-@color" style="max-width:20rem; height:30rem">
-                                     
-                <h4 class="card-title text-center">@obj.Name</h4>
-                <img src=@obj.ImagePath class="h-100" style="object-fit:cover" />
-            </div>
-            <button type="button" id = @obj.Id class="btn btn-outline-@color btn-lg">
-                               
-                    @obj.Name
-                                  
-            </button>
-        </div> 
-    }
-        
-        }
-        </section>
-<section class=" d-flex  flex-wrap gy-5 justify-content-between mb-5">
+    <form method="post" action="@Url.Action("GetDeckIdAndMode","Game")">
 
-    <div class=" d-flex flex-column mb-5">
-        <div class="card border-primary mb-3 " style="max-width: 20rem;">
-            <h4 class="card-title text-center">Roys title</h4>
-            <img src="/images/animals/anaconda.jpg" class="h-100" />
-        </div>
-        <button type="button" class="btn btn-outline-primary btn-lg">Roys Deck</button>
-    </div>
+       {
+                <section class=" form-group d-flex  flex-wrap gy-5 justify-content-between mb-5 center">
+                 @{
+                    var color = "";
+                       @foreach (var obj in Model)
+                          {
+                               <div class="d-flex flex-column mb-5">
 
-    <div class=" d-flex flex-column mb-5">
-        <div class="card border-warning mb-3 " style="max-width: 20rem;">
-            <h4 class="card-title text-center">Animals</h4>
-            <img src="/images/animals/animals.jpg" class="h-100" />
-        </div>
-        <button type="button" class="btn btn-outline-warning btn-lg">Animals</button>
-    </div>
+                                        @if(obj.Id ==1){
+                                color = "primary";
+                                }
+                                        @if(obj.Id ==2){
+                                color = "warning";
+                                }
+                                        @if(obj.Id ==3){
+                                color = "info";
+                                }
+
+                                        <div class="card mb-3 border-@color" style="max-width:20rem; height:30rem">
+                                            <h4 class="card-title text-center">@obj.Name</h4>
+                                            <img src=@obj.ImagePath class="h-100" style="object-fit:cover" />
+                                        </div>
+     
+                                        <input type="radio" name ="DeckIdButton" class="btn-check" value = "@obj.Id" id = "@obj.Id" autocomplete="off" asp-for="@obj.Id"/> 
+                                        <label class="btn btn-outline-@color" for="@obj.Id"> @obj.Name</label>            
+    
+                              </div>
+                            }
+                 }    
+                    
+                </section>
+
+                    <section class="d-flex flex-column ">
+                        <h2 class="text-center mb-5"> Choose Your Opponent </h2>
+
+                        <div class="form-group d-flex justify-content-around mb-5">
+                            <input type="radio" name ="modeChoice" class="btn-check" value = "EasyAI" id = "EasyAI" autocomplete="off" @*asp-for="Mode"*@/> 
+                            <label class="btn btn-outline-primary" for="EasyAI"> Easy AI</label>      
+                             <input type="radio" name ="modeChoice" class="btn-check" value = "HardAI" id = "HardAI" autocomplete="off" @*asp-for="Mode"*@/> 
+                            <label class="btn btn-outline-warning" for="HardAI"> Hard AI</label>      
+                             <input type="radio" name ="modeChoice" class="btn-check" value = "Local" id = "Local" autocomplete="off" @*asp-for="Mode"*@/> 
+                            <label class="btn btn-outline-info" for="Local"> Local</label>      
+                            
 
 
-    <div class=" d-flex flex-column mb-5">
-        <div class="card border-info mb-3" style="max-width: 20rem;">
-            <h4 class="card-title text-center">Ancient Gods </h4>
-            <img src="/images/GM/Aphrodite.jpeg" class="h-100" />
-        </div>
-        <button type ="button" class="btn btn-outline-info btn-lg" onclick="location.href='https://localhost:7015/Game'">Ancient Gods</button>
-    </div>
+@*                            <button name="PlayerId" value = "Easy AI" class="btn btn-outline-success btn-lg"  asp-for="PlayerId">Easy AI</button>
+                            <button name="PlayerId" value = "Hard AI" class="btn btn-outline-danger btn-lg" asp-for="PlayerId" >Hard AI</button>
+                            <button name="PlayerId" value = "Local" class="btn btn-outline-info btn-lg" asp-for="PlayerId" >Local Player</button>
+*@                        </div>
 
+                        <button type="submit" class="btn btn-outline-primary btn-lg" asp-controller = "Game" asp-action="GetDeckIdAndMode" >
+                            Start Game
+                        </button>
 
-</section>
-
-<section class="d-flex flex-column ">
-    <h2 class="text-center mb-5"> Choose Your Opponent </h2>
-
-    <div class="d-flex justify-content-around mb-5">
-        <button type="button" class="btn btn-outline-success btn-lg">Easy AI</button>
-        <button type="button" class="btn btn-outline-danger btn-lg">Hard AI</button>
-        <button type="button" class="btn btn-outline-info btn-lg">Local Player</button>
-    </div>
-
-        
-    </section>
-
-    <section class="d-flex flex-column ">
-            <h2 class="text-center mb-5"> Choose Your Opponent </h2>
-
-            <div class="d-flex justify-content-around mb-5">
-                <button type="button" class="btn btn-outline-success btn-lg">Easy AI</button>
-                <button type="button" class="btn btn-outline-danger btn-lg">Hard AI</button>
-                <button type="button" class="btn btn-outline-info btn-lg">Local Player</button>
-            </div>
-
-            <button type="button" value="startGame" class="btn btn-outline-primary btn-lg" >
-                <a asp-controller="Game" asp-action="Index()">Start Game</a></button>
-              
-    </section>
+                    </section>
+                 
+ 
+    </form>
     }
