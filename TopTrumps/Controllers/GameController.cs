@@ -20,8 +20,7 @@ namespace TopTrumps.Controllers
         public Deck allCards = new(0,"FullDeck","");
         public Attributes attributes;
         public Player player1 = new("",new(0,"",""));
-        public Player player2 = new("", new(0, "", ""));
-        public AI AIPlayer = new("", new(0, "", ""),false);
+        public Player player2;
         public Deck? inPlay;
         public IActionResult Index()
         {
@@ -51,6 +50,18 @@ namespace TopTrumps.Controllers
                 //shuffles
                 allCards.getShuffled();
                 //distributes the cards evenly between the 2 players
+                if (mode == "Local")
+                {
+                    player2 = new Player("", new(0, "", ""));
+                }
+                else if (mode == "EasyAI")
+                {
+                    player2 = new AI("TrumpMaster", new(0, "", ""), false);
+                }
+                else
+                {
+                    player2 = new AI("TrumpMaster", new(0, "", ""), true);
+                }
                 if (allCards.Id != 0)
                 {
                     int totcards = allCards.getCards().Count / 2;
@@ -77,11 +88,6 @@ namespace TopTrumps.Controllers
                 //Real player goes first
                 {
                     player1.IsActivePlayer = true;
-                    int p2cards = player2.PlayerHand.getCards().Count;
-                    for (int i = 0; i < p2cards; i++)
-                    {
-                        AIPlayer.PlayerHand.addcard(player2.PlayerHand.getTopCard());
-                    }
                 }
                 //START The GAME
                       
