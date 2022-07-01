@@ -56,7 +56,7 @@ namespace TopTrumps.Controllers
                 }
                 else if (mode == "EasyAI")
                 {
-                    player2 = new AI("TrumpMaster", new(0, "", ""), false);
+                    player2 = new AI("TrumpNovice", new(0, "", ""), false);
                 }
                 else
                 {
@@ -72,7 +72,7 @@ namespace TopTrumps.Controllers
                     }
                 }
                 //sets the attribute names
-                getAttributes();
+                await getAttributes();
                 if(mode == "Local")
                     //Coin toss to see who goes first
                 {
@@ -91,10 +91,10 @@ namespace TopTrumps.Controllers
                 }
                 //START The GAME
                       
-                return View();
+                return View("Index");
             }
 
-            return View("Index","Menu");
+            return RedirectToAction("Index","Game");
         }
         public async Task setDeck()
         {
@@ -125,7 +125,7 @@ namespace TopTrumps.Controllers
                 }
             }while (cards == null);
         }
-        public async void getAttributes()
+        public async Task getAttributes()
         {
             var attribute = await _context.Attribute.FromSqlRaw($"SELECT * FROM Attribute WHERE deckid = {deck}").ToListAsync();
             foreach(Attributes a in attribute)
