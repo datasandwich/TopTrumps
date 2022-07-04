@@ -10268,24 +10268,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/datasandwich/.nuget/packages/": {}
+    "C:\\Users\\abrah\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/datasandwich/Projects/TopTrumps/TopTrumps/TopTrumps.csproj",
+      "projectUniqueName": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\TopTrumps.csproj",
       "projectName": "TopTrumps",
-      "projectPath": "/Users/datasandwich/Projects/TopTrumps/TopTrumps/TopTrumps.csproj",
-      "packagesPath": "/Users/datasandwich/.nuget/packages/",
-      "outputPath": "/Users/datasandwich/Projects/TopTrumps/TopTrumps/obj/",
+      "projectPath": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\TopTrumps.csproj",
+      "packagesPath": "C:\\Users\\abrah\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abrah\\source\\repos\\TopTrumps1\\TopTrumps\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/datasandwich/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\abrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10351,7 +10358,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
