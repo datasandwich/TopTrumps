@@ -48,7 +48,6 @@ namespace TopTrumps.Controllers
                 //sets the attribute names
                 await getAttributes();
                 game.startGame();
-                
                 //START The GAME
                       
                 return View("Index",game);

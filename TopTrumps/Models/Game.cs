@@ -61,6 +61,7 @@ namespace TopTrumps.Models
             {
                 player1.IsActivePlayer = true;
             }
+            nextRound();
         }
         //Initiates the next round by placing the top card of the active player's deck into play
         public void nextRound()
