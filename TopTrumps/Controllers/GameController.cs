@@ -14,7 +14,6 @@ namespace TopTrumps.Controllers
             _context = context;
         }
 
-
         public int deck;
         public string mode;
         public Game game = new(new(0,0,"","","","",""),new("",new(0,"","")),new("",new(0,"","")),null,"");

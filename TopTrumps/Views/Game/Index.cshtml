@@ -7,24 +7,35 @@
 <div>
 
 
-    <div class="card mb-3" name="Player1Back" style="max-width:20rem; height:30rem; position:absolute; left:15rem; top:10rem; z-index:0">
-        <img src=@Model.inPlay.ImagePath class="h-100" style="object-fit:cover" />
+    <div class="card mb-3" name="Player1Back" style="width:20rem; height:30rem; position:absolute; left:15rem; top:10rem; z-index:0">
+        <img src=@Model.inPlay.ImagePath class="h-100" style="max-width:20rem; object-fit:cover" />
 
     </div>
-    <div class="card mb-3" name="Player1Front" style=" visibility:visible; max-width:20rem; height:30rem; position:absolute; left:15rem; top:10rem; z-index:1">
+    <div class="card mb-3" name="Player1Front" style=" visibility:visible;width:20rem; height:30rem; position:absolute; left:15rem; top:10rem; z-index:1">
         @{
             var p1card = Model.inPlay.getCards().ToArray()[Model.inPlay.getCards().Count - 1];
         }
         <h4 class="card-title text-center">@p1card.getName()</h4>
-        <img src="@p1card.getImage()" style="max-width:20rem; height:30rem" />
-
+        @{  
+            if(p1card.Description != null){
+                <div style="position:absolute;top:3rem;left:0px;width:10rem">
+                    <img src="@p1card.getImage()" style="max-width:10rem;object-fit:scale-down"/>
+                </div>
+                <div style="position:absolute;top:3rem;right:0px;width:9rem">
+                    <article>@p1card.Description</article>
+                </div>
+            }else{
+                <img src="@p1card.getImage()" style="max-width:20rem;position:absolute;top:3rem;"/>
+            }
+        }
         @{
-                                @for (int i = 0; i < 5; i++)
+            @for (int i = 0; i < 5; i++)
             {
-                                    <div class="d-flex flex-column mb-5">
-                                        <input type="radio" class="btn-check" value="@p1card.getattr(@i)" id="p1 @i" asp-for="@i"/>
-                                        <label class="btn btn-outline-primary" style="margin:2px; height:2rem; padding:0px;" for="p1 @i">@Model.attributes.getAttr(i) : @p1card.getattr(i)</label>
-                                    </div>
+                <div class="d-flex flex-column mb-5">
+                    <input type="radio" class="btn-check" value="@p1card.getattr(@i)" id="p1 @i" asp-for="@p1card.getattr(@i)"/>
+                    @{var high = (5-i)*2;}
+                    <label class="btn btn-outline-primary" style="position:absolute; left:2px;bottom:(@high)rem+(2*@i)px; height:2rem;" for="p1 @i">@Model.attributes.getAttr(i) : @p1card.getattr(i)</label>
+                </div>
             }
         }
     </div>
@@ -40,12 +51,12 @@
         <img src="@p2card.getImage()" style="max-width:20rem; height:30rem" />
         
         @{
-                                                @for(int i = 0; i < 5; i++)
+            @for(int i = 0; i < 5; i++)
             {
-                                                    <div class="d-flex flex-column mb-5">
-                                                        <input type="radio" class="btn-check" value="@p2card.getattr(@i)" id="p1 @i" asp-for="@i"/>
-                                                        <label class="btn btn-outline-primary" style="margin:2px; height:2rem; padding:0px;" for="p1 @i">@Model.attributes.getAttr(i) : @p2card.getattr(i)</label>
-                                                    </div>
+                <div class="d-flex flex-column mb-5">
+                    <input type="radio" class="btn-check" value="@p2card.getattr(@i)" id="p1 @i" asp-for="@i"/>
+                    <label class="btn btn-outline-primary" style="margin:2px; height:2rem; padding:0px;" for="p1 @i">@Model.attributes.getAttr(i) : @p2card.getattr(i)</label>
+                </div>
             }
         }
         </div>
