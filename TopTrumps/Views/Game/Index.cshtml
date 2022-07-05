@@ -21,25 +21,25 @@
         @*Description if it has one*@
         @{  
             if(p1card.Description != null){
-                <div style="position:absolute;top:3rem;left:0px;width:10rem">
-                    <img src="@p1card.getImage()" style="max-width:10rem;object-fit:scale-down"/>
-                </div>
-                <div style="position:absolute;top:3rem;right:0px;width:9rem">
-                    <article>@p1card.Description</article>
-                </div>
+                            <div style="position:absolute;top:3rem;left:0px;width:10rem">
+                                <img src="@p1card.getImage()" style="max-width:10rem;object-fit:scale-down"/>
+                            </div>
+                            <div style="position:absolute;top:3rem;right:0px;width:9rem">
+                                <article>@p1card.Description</article>
+                            </div>
             }else{
-                <img src="@p1card.getImage()" style="max-width:20rem;position:absolute;top:3rem;"/>
+                            <img src="@p1card.getImage()" style="max-width:20rem;position:absolute;top:3rem;"/>
             }
         }
         @*Player 1 card attribute buttons*@
         @{
-            @for (int i = 0; i < 5; i++)
+                        @for (int i = 0; i < 5; i++)
             {
-                <div class="d-flex flex-column mb-5">
-                    <input type="radio" class="btn-check" value="@p1card.getattr(@i)" id="p1 @i"/>
-                    @{var high = (5-i)*2;}
-                    <label class="btn btn-outline-primary" style="position:absolute; left:2px;bottom:(@high)rem+(2*@i)px; height:2rem;" for="p1 @i">@Model.attributes.getAttr(i) : @p1card.getattr(i)</label>
-                </div>
+                            <div class="d-flex flex-column mb-5">
+                                <input type="radio" class="btn-check" value="@p1card.getattr(@i)" id="p1 @i"/>
+                                @{var high = (5-i)*2;}
+                                <label class="btn btn-outline-primary" style="position:absolute; left:2px;bottom:(@high)rem+(2*@i)px; height:2rem;" for="p1 @i">@Model.attributes.getAttr(i) : @p1card.getattr(i)</label>
+                            </div>
             }
         }
     </div>
@@ -58,15 +58,22 @@
     <img src="@p2card.getImage()" style="max-width:20rem; height:30rem" />
     @*Player 2 card attribute buttons*@    
     @{
-        @for(int i = 0; i < 5; i++)
+                    @for(int i = 0; i < 5; i++)
         {
-            <div class="d-flex flex-column mb-5">
-                <input type="radio" class="btn-check" value="@p2card.getattr(@i)" id="p1 @i"/>
-                <label class="btn btn-outline-primary" style="margin:2px; height:2rem; padding:0px;" for="p1 @i">@Model.attributes.getAttr(i) : @p2card.getattr(i)</label>
-            </div>
+                        <div class="d-flex flex-column mb-5">
+                            <input type="radio" class="btn-check" value="@p2card.getattr(@i)" id="p1 @i"/>
+                            <label class="btn btn-outline-primary" style="margin:2px; height:2rem; padding:0px;" for="p1 @i">@Model.attributes.getAttr(i) : @p2card.getattr(i)</label>
+                        </div>
         }
     }
     </div>
-    <button class="btn-danger" value="@Model" asp-action="forfeit" id="btnForfeit">Forfeit game</button>
+    <form class="d-flex align-content-center" asp-action="Forfeit">
+        <input name="attributes" hidden @Html.HiddenFor(x=>x.attributes)/>
+        <input name="player1" hidden @Html.HiddenFor(x=>x.player1)/>
+        <input name="player2" hidden @Html.HiddenFor(x=>x.player2)/>
+        <input name="inPlay" hidden @Html.HiddenFor(x=>x.inPlay)/>
+        <input name="mode" hidden @Html.HiddenFor(x=>x.mode)/>
+        <button type="submit" class="btn-danger" asp-action="Forfeit">Forfeit game</button>
+    </form>
 </div>
 

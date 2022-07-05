@@ -18,7 +18,6 @@ namespace TopTrumps.Controllers
         public string mode;
         public Game game = new(new(0,0,"","","","",""),new("",new(0,"","")),new("",new(0,"","")),null,"");
         public Deck allCards;
-        public Attributes attributes;
         public IActionResult Index()
         {
             //Player1 and Player2 hands are face down
@@ -91,8 +90,10 @@ namespace TopTrumps.Controllers
                 game.attributes = a;
             }
         }
-        public IActionResult forfeit(Game endgame)
+        [HttpGet]
+        public ActionResult Forfeit(Attributes attributes, Player player1, Player player2, Deck inPlay, string mode)
         {
+            Game endgame = new Game(attributes, player1, player2, inPlay, mode);
             if (endgame.player1.IsActivePlayer)
             {
                 foreach (Card card in endgame.player1.PlayerHand.getCards()) 
