@@ -9,55 +9,55 @@
     <form method="post" action="@Url.Action("GetDeckIdAndMode","Game")">
 
        {
-                <section class=" form-group d-flex  flex-wrap gy-5 justify-content-between mb-5 center">
-                 @{
-                    var color = "";
-                       @foreach (var obj in Model)
-                          {
-                               <div class="d-flex flex-column mb-5">
+        <section class=" form-group d-flex  flex-wrap gy-5 justify-content-between mb-5 center">
+        @{
+            var color = "";
+            @foreach (var obj in Model)
+            {
+                <div class="d-flex flex-column mb-5">
 
-                                        @if(obj.Id ==1){
-                                color = "primary";
-                                }
-                                        @if(obj.Id ==2){
-                                color = "warning";
-                                }
-                                        @if(obj.Id ==3){
-                                color = "info";
-                                }
+                @if(obj.Id ==1){
+                    color = "primary";
+                }
+                @if(obj.Id ==2){
+                    color = "warning";
+                }
+                @if(obj.Id ==3){
+                    color = "info";
+                }
 
-                                        <div class="card mb-3 border-@color" style="max-width:20rem; height:30rem">
-                                            <h4 class="card-title text-center">@obj.Name</h4>
-                                            <img src=@obj.ImagePath class="h-100" style="object-fit:cover" />
-                                        </div>
+                <div class="card mb-3 border-@color" style="max-width:20rem; height:30rem">
+                    <h4 class="card-title text-center">@obj.Name</h4>
+                    <img src=@obj.ImagePath class="h-100" style="object-fit:cover" />
+                </div>
      
-                                        <input type="radio" name ="DeckIdButton" class="btn-check" value = "@obj.Id" id = "@obj.Id" autocomplete="off" asp-for="@obj.Id"/> 
-                                        <label class="btn btn-outline-@color" for="@obj.Id"> @obj.Name</label>            
+                <input type="radio" name ="DeckIdButton" class="btn-check" value = "@obj.Id" id = "@obj.Id" autocomplete="off" asp-for="@obj.Id"/> 
+                <label class="btn btn-outline-@color" for="@obj.Id"> @obj.Name</label>            
     
-                              </div>
-                            }
-                 }    
+            </div>
+            }
+        }    
                     
-                </section>
+        </section>
 
-                    <section class="d-flex flex-column ">
-                        <h2 class="text-center mb-5"> Choose Your Opponent </h2>
+        <section class="d-flex flex-column ">
+            <h2 class="text-center mb-5"> Choose Your Opponent </h2>
 
-                        <div class="form-group d-flex justify-content-around mb-5">
-                            <input type="radio" name ="modeChoice" class="btn-check" value = "EasyAI" id = "EasyAI" autocomplete="off"/> 
-                            <label class="btn btn-outline-primary" for="EasyAI"> Easy AI</label>      
-                             <input type="radio" name ="modeChoice" class="btn-check" value = "HardAI" id = "HardAI" autocomplete="off" /> 
-                            <label class="btn btn-outline-warning" for="HardAI"> Hard AI</label>      
-                             <input type="radio" name ="modeChoice" class="btn-check" value = "Local" id = "Local" autocomplete="off" /> 
-                            <label class="btn btn-outline-info" for="Local"> Local</label>      
+            <div class="form-group d-flex justify-content-around mb-5">
+                <input type="radio" name ="modeChoice" class="btn-check" value = "EasyAI" id = "EasyAI" autocomplete="off"/> 
+                <label class="btn btn-outline-primary" for="EasyAI"> Easy AI</label>      
+                    <input type="radio" name ="modeChoice" class="btn-check" value = "HardAI" id = "HardAI" autocomplete="off" /> 
+                <label class="btn btn-outline-warning" for="HardAI"> Hard AI</label>      
+                    <input type="radio" name ="modeChoice" class="btn-check" value = "Local" id = "Local" autocomplete="off" /> 
+                <label class="btn btn-outline-info" for="Local"> Local</label>      
                                         
-</div>
+            </div>
 
-                        <button type="submit" class="btn btn-outline-primary btn-lg" asp-controller = "Game" asp-action="GetDeckIdAndMode" >
-                            Start Game
-                        </button>
+            <button type="submit" class="btn btn-outline-primary btn-lg" asp-controller = "Game" asp-action="GetDeckIdAndMode" >
+                Start Game
+            </button>
 
-                    </section>
+        </section>
                  
  
     </form>
