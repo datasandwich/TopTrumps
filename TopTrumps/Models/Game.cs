@@ -8,7 +8,7 @@ namespace TopTrumps.Models
         public Player player2 { get; set; }
         public Deck? inPlay { get; set; }
         public string mode { get; set; }
-
+        
         public Game(Attributes attributes, Player player1, Player player2, Deck? inPlay, string mode)
         {
             this.attributes = attributes;
