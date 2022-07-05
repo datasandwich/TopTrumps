@@ -32,6 +32,8 @@ namespace TopTrumps.Controllers
             //categories compared, a player wins
             //winningplayer.addCard(each inPlay)
             //inPlay = null
+
+
             return View();
         }
 
@@ -49,6 +51,7 @@ namespace TopTrumps.Controllers
                 await Populate(allCards);
                 //shuffles
                 allCards.getShuffled();
+                //sets the attribute names
                 await getAttributes();
                 //distributes the cards evenly between the 2 players
                 if (mode == "Local")
@@ -72,8 +75,7 @@ namespace TopTrumps.Controllers
                         player2.PlayerHand.addcard(allCards.getTopCard());
                     }
                 }
-                //sets the attribute names
-                await getAttributes();
+             
                 if(mode == "Local")
                     //Coin toss to see who goes first
                 {
