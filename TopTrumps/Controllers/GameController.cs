@@ -91,7 +91,27 @@ namespace TopTrumps.Controllers
                 game.attributes = a;
             }
         }
-
+        public IActionResult forfeit(Game endgame)
+        {
+            if (endgame.player1.IsActivePlayer)
+            {
+                foreach (Card card in endgame.player1.PlayerHand.getCards()) 
+                { 
+                    endgame.player2.PlayerHand.addcard(card);
+                }
+                endgame.player1.PlayerHand.getCards().Clear();
+            }
+            else
+            {
+                foreach (Card card in endgame.player2.PlayerHand.getCards())
+                {
+                    endgame.player1.PlayerHand.addcard(card);
+                }
+                endgame.player2.PlayerHand.getCards().Clear();
+            }
+            endgame.nextRound();
+            return View("Index",endgame);
+        }
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Deck == null)

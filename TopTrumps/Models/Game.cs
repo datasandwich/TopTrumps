@@ -8,6 +8,7 @@ namespace TopTrumps.Models
         public Player player2 { get; set; }
         public Deck? inPlay { get; set; }
         public string mode { get; set; }
+        private bool end { get; set; } = false;
         
         public Game(Attributes attributes, Player player1, Player player2, Deck? inPlay, string mode)
         {
@@ -66,8 +67,23 @@ namespace TopTrumps.Models
         //Initiates the next round by placing the top card of the active player's deck into play
         public void nextRound()
         {
-            if (player1.IsActivePlayer) { inPlay.addcard(player1.PlayerHand.getTopCard()); }
-            else { inPlay.addcard(player2.PlayerHand.getTopCard()); }
+            if (player1.PlayerHand.getCards().Count != 0)
+            {
+                if (player2.PlayerHand.getCards().Count != 0)
+                {
+                    if (player1.IsActivePlayer) { inPlay.addcard(player1.PlayerHand.getTopCard()); }
+                    else { inPlay.addcard(player2.PlayerHand.getTopCard()); }
+                    end = false;
+                }
+                else
+                {
+                    end = true;
+                }
+            }
+            else
+            {
+                end = true;
+            }
         }
         //Adds the 2nd card into play after the attribute choice is made and determines the winner
         public void choice(int chosen)
