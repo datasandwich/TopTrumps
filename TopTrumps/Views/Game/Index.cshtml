@@ -5,17 +5,48 @@
 }
 <h1>Game On</h1>
 <div>
-    
-    
-    
-      
-    
-            @Html.DisplayFor(model => model.Name)
-             @Html.DisplayFor(model => model.ImagePath)
-     
-      
-  @*          @Html.DisplayNameFor(model => model.Attr1)*@
-   
-        
-</div>
 
+
+    <div class="card mb-3" name="Player1Back" style="max-width:20rem; height:30rem; position:absolute; left:15rem; top:10rem; z-index:0">
+        <img src=@Model.inPlay.ImagePath class="h-100" style="object-fit:cover" />
+
+    </div>
+    <div class="card mb-3" name="Player1Front" style=" visibility:visible; max-width:20rem; height:30rem; position:absolute; left:15rem; top:10rem; z-index:1">
+        @{
+            var p1card = Model.inPlay.getCards().ToArray()[Model.inPlay.getCards().Count - 1];
+        }
+        <h4 class="card-title text-center">@p1card.getName()</h4>
+        <img src="@p1card.getImage()" style="max-width:20rem; height:30rem" />
+
+        @{
+                                @for (int i = 0; i < 5; i++)
+            {
+                                    <div class="d-flex flex-column mb-5">
+                                        <input type="radio" class="btn-check" value="@p1card.getattr(@i)" id="p1 @i" asp-for="@i"/>
+                                        <label class="btn btn-outline-primary" style="margin:2px; height:2rem; padding:0px;" for="p1 @i">@Model.attributes.getAttr(i) : @p1card.getattr(i)</label>
+                                    </div>
+            }
+        }
+    </div>
+        <div class="card mb-3 border-green" name="Player2Back" style="max-width:20rem; height:30rem; position:absolute; right:15rem; top:10rem; z-index:1">
+            <img src=@Model.inPlay.ImagePath class="h-100" style="object-fit:cover" />
+
+        </div>
+        <div class="card mb-3" name="Player2Front" style="visibility:hidden; max-width:20rem; height:30rem; position:absolute; right:15rem; top:10rem; z-index:1">
+        @{
+            var p2card = Model.inPlay.getCards().ToArray()[Model.inPlay.getCards().Count - 1];
+        }
+        <h4 class="card-title text-center">@p2card.getName()</h4>
+        <img src="@p2card.getImage()" style="max-width:20rem; height:30rem" />
+
+        @{
+                                                @for(int i = 0; i < 5; i++)
+            {
+                                                    <div class="d-flex flex-column mb-5">
+                                                        <input type="radio" class="btn-check" value="@p2card.getattr(@i)" id="p1 @i" asp-for="@i"/>
+                                                        <label class="btn btn-outline-primary" style="margin:2px; height:2rem; padding:0px;" for="p1 @i">@Model.attributes.getAttr(i) : @p2card.getattr(i)</label>
+                                                    </div>
+            }
+        }
+        </div>
+    </div>
