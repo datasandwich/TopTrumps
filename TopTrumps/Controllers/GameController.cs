@@ -29,6 +29,8 @@ namespace TopTrumps.Controllers
             //categories compared, a player wins
             //winningplayer.addCard(each inPlay)
             //inPlay = null
+
+
             return View();
         }
 
@@ -43,13 +45,52 @@ namespace TopTrumps.Controllers
             {
                 //gets the cards for the chosen deck
                 await setDeck();
-                await Populate(game.inPlay);
+                await Populate(allCards);
+                //shuffles
+                allCards.getShuffled();
+                //distributes the cards evenly between the 2 players
+                if (mode == "Local")
+                {
+                    player2 = new Player("", new(0, "", ""));
+                }
+                else if (mode == "EasyAI")
+                {
+                    player2 = new AI("TrumpNovice", new(0, "", ""), false);
+                }
+                else
+                {
+                    player2 = new AI("TrumpMaster", new(0, "", ""), true);
+                }
+                if (allCards.Id != 0)
+                {
+                    int totcards = allCards.getCards().Count / 2;
+                    for (int i = 0; i < totcards; i++)
+                    {
+                        player1.PlayerHand.addcard(allCards.getTopCard());
+                        player2.PlayerHand.addcard(allCards.getTopCard());
+                    }
+                }
                 //sets the attribute names
                 await getAttributes();
-                game.startGame();
+                if(mode == "Local")
+                    //Coin toss to see who goes first
+                {
+                    Random coinToss = new();
+                    int result = coinToss.Next(2);
+                    switch (result)
+                    {
+                        case 0: player1.IsActivePlayer = true; break;
+                        case 1: player2.IsActivePlayer = true; break;
+                    }
+                }
+                else
+                //Real player goes first
+                {
+                    player1.IsActivePlayer = true;
+                }
                 //START The GAME
                       
-                return View("Index",game);
+                return View("Index");
             }
 
             return View("Index","Game");
@@ -92,21 +133,7 @@ namespace TopTrumps.Controllers
             }
         }
 
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Deck == null)
-            {
-                return NotFound();
-            }
-
-            var deck = await _context.Deck
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (deck == null)
-            {
-                return NotFound();
-            }
-            return View(deck);
-        }
+     
 
     }
 }
