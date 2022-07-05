@@ -20,5 +20,18 @@
         public string Attr3 { get; set; }
         public string Attr4 { get; set; }
         public string Attr5 { get; set; }
+        public string getAttr(int attrnum)
+    {
+        switch(attrnum)
+        {
+            case 0: return Attr1;
+            case 1: return Attr2;
+            case 2: return Attr3;
+            case 3: return Attr4;
+            case 4: return Attr5;
+            default:return "";
+        }
     }
+    }
+    
 }

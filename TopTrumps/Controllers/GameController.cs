@@ -17,11 +17,9 @@ namespace TopTrumps.Controllers
 
         public int deck;
         public string mode;
-        public Deck allCards = new(0,"FullDeck","");
+        public Game game = new(new(0,0,"","","","",""),new("",new(0,"","")),new("",new(0,"","")),null,"");
+        public Deck allCards;
         public Attributes attributes;
-        public Player player1 = new("",new(0,"",""));
-        public Player player2;
-        public Deck? inPlay;
         public IActionResult Index()
         {
             //Player1 and Player2 hands are face down
@@ -51,8 +49,6 @@ namespace TopTrumps.Controllers
                 await Populate(allCards);
                 //shuffles
                 allCards.getShuffled();
-                //sets the attribute names
-                await getAttributes();
                 //distributes the cards evenly between the 2 players
                 if (mode == "Local")
                 {
@@ -75,7 +71,8 @@ namespace TopTrumps.Controllers
                         player2.PlayerHand.addcard(allCards.getTopCard());
                     }
                 }
-             
+                //sets the attribute names
+                await getAttributes();
                 if(mode == "Local")
                     //Coin toss to see who goes first
                 {
@@ -94,10 +91,10 @@ namespace TopTrumps.Controllers
                 }
                 //START The GAME
                       
-                return RedirectToAction("Index", "Game");
+                return View("Index");
             }
 
-            return RedirectToAction("Index","Game");
+            return View("Index","Game");
         }
         public async Task setDeck()
         {
@@ -108,7 +105,7 @@ namespace TopTrumps.Controllers
                 {
                     foreach (var adeck in decks)
                     {
-                        allCards = adeck;
+                        game.inPlay = adeck;
                     }
                 }
             }while (decks == null);
@@ -133,7 +130,7 @@ namespace TopTrumps.Controllers
             var attribute = await _context.Attribute.FromSqlRaw($"SELECT * FROM Attribute WHERE deckid = {deck}").ToListAsync();
             foreach(Attributes a in attribute)
             {
-                attributes = a;
+                game.attributes = a;
             }
         }
 

@@ -33,11 +33,11 @@
         {
             return attributeNumber switch
             {
-                1 => Attr1,
-                2 => Attr2,
-                3 => Attr3,
-                4 => Attr4,
-                5 => Attr5,
+                0 => Attr1,
+                1 => Attr2,
+                2 => Attr3,
+                3 => Attr4,
+                4 => Attr5,
                 _ => 0,
             };
         }
