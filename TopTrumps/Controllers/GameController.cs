@@ -15,6 +15,9 @@ namespace TopTrumps.Controllers
         }
 
         public int deck;
+        public int attributeChoice;
+      
+
         public string mode;
         public Game game = new(new(0, 0, "", "", "", "", ""), new("", new(0, "", "")), new("", new(0, "", "")), null, "");
         public Deck allCards;
@@ -106,6 +109,17 @@ namespace TopTrumps.Controllers
                 return NotFound();
             }
             return View(deck);
+        }
+
+        //function to hNDLE CHOICE OF ATTRIBUTE 
+      
+        public async Task<IActionResult> Choice( [Bind("attributes,player1, player2, inPlay,mode")]Game gameState,  int attributeChoice )
+        {
+
+            
+            gameState.choice(attributeChoice);   
+             
+            return View("Index", gameState );
         }
 
     }

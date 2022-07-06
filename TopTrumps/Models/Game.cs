@@ -18,6 +18,9 @@ namespace TopTrumps.Models
             this.mode = mode;
         }
 
+       
+        
+
         public void startGame()
         {
             //shuffles

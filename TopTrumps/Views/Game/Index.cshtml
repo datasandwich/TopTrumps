@@ -1,5 +1,4 @@
-﻿
-@model TopTrumps.Models.Game
+﻿@model TopTrumps.Models.Game
 @{
     ViewData["Title"] = "Index";
 }
@@ -14,8 +13,16 @@
             if player1 is the one to start the player1 deck is face up  
             which game property tells me who is starting the game? 
         *@
-    @{
-             <form class="mr-auto"> 
+            
+             <form class="mr-auto" method="post" action="@Url.Action("Choice","Game" )"> 
+
+             
+                  <input type="hidden" name = "player1" value="@Model.player1"  />     
+                   <input type="hidden" name = "player2"  value="@Model.player2"  />  
+                    <input type="hidden" name = "inPlay"  value="@Model.inPlay"  />  
+                     <input type="hidden" name = "mode"  value="@Model.mode"  />  
+                      <input type="hidden" name = "attributes" value="@Model.attributes"  /> 
+
                  @if(Model.player1.IsActivePlayer)
             {
                          <div class="card mb-3  bg-dark border-primary justify-content-between" style="width:20rem; height:30rem; ">
@@ -40,7 +47,7 @@
                         {
    
                                                 <div class="d-flex flex-column justify-content-center form-group">
-                                                     <input type="radio" name = "attributeChoice" class="btn-check" value="@p1card.getattr(@i)" id="p1 @i" asp-for= "p1 @i"/>
+                                                     <input type="radio" name = "attributeChoice" class="btn-check" value="@i" id="p1 @i" asp-for= "p1 @i"/>
                                                     @{var high = (5-i)*2;}
                                                     <label class="btn btn-outline-primary" for="p1 @i">@Model.attributes.getAttr(i) : @p1card.getattr(i)</label>
                                                 </div>
@@ -57,11 +64,11 @@
                     <img src=@Model.inPlay.ImagePath class="h-100" style="object-fit:cover" />
                     </div>}
             
-           <button type="submit" class="btn btn-outline-primary btn-lg align-self-auto " asp-controller = "" asp-action="" >
+           <button type="submit" class="btn btn-outline-primary btn-lg align-self-auto " asp-controller = "Game" asp-action="Choice" >
                                     Confirm your choice 
                                 </button>
-                            </form>
-                        }
+        </form>
+  
                     
 
 
@@ -110,5 +117,3 @@
                 </div>}
     }
     
-
-     
