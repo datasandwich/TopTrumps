@@ -64,39 +64,17 @@ namespace TopTrumps.Models
             {
                 player1.IsActivePlayer = true;
             }
-            nextRound();
         }
         //Initiates the next round by placing the top card of the active player's deck into play
-        public void nextRound()
+        public void draw()
         {
-            if (player1.IsActivePlayer) { inPlay.addcard(player1.PlayerHand.getTopCard()); }
-            else { inPlay.addcard(player2.PlayerHand.getTopCard()); }
+            inPlay.addcard(player1.PlayerHand.getTopCard());
+            inPlay.addcard(player2.PlayerHand.getTopCard());
         }
         //Adds the 2nd card into play after the attribute choice is made and determines the winner
-        public Game choice(int chosen)
-        {
-            if (player1.IsActivePlayer)
-            {
-                inPlay.addcard(player2.PlayerHand.getTopCard());
-            }
-            else
-            {
-                inPlay.addcard(player1.PlayerHand.getTopCard());
-            }
-            if (inPlay.getCards().ToArray()[inPlay.getCards().Count-1].getattr(chosen) > inPlay.getCards().ToArray()[inPlay.getCards().Count - 2].getattr(chosen))
-            {
-                if (player1.IsActivePlayer) { addWinnings(1); }
-                else { addWinnings(2); }
-            }
-            else
-            {
-                if (player2.IsActivePlayer) { addWinnings(2); }
-                else { addWinnings(1); }
-            }
-            return this;
-        }
+        
         //Sends all cards in play to the winning player
-        private void addWinnings(int winner)
+        public void addWinnings(int winner)
         {
             int Count = inPlay.getCards().Count;
             for(int i=0;i<Count;i++)
@@ -108,11 +86,17 @@ namespace TopTrumps.Models
             { 
                 player1.IsActivePlayer=true;
                 player2.IsActivePlayer = false;
+                player1.PlayerHand.addcard(player2.PlayerHand.getTopCard());
             }
-            else 
+            else if(winner == 2)
             {
                 player1.IsActivePlayer=false;
                 player2.IsActivePlayer=true;
+                player2.PlayerHand.addcard(player1.PlayerHand.getTopCard());
+            }
+            else
+            {
+                draw();
             }
         }
     }

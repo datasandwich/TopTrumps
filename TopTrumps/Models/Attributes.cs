@@ -22,16 +22,16 @@
         public string Attr5 { get; set; }
         public string getAttr(int attrnum)
     {
-        switch(attrnum)
-        {
-            case 0: return Attr1;
-            case 1: return Attr2;
-            case 2: return Attr3;
-            case 3: return Attr4;
-            case 4: return Attr5;
-            default:return "";
+            return attrnum switch
+            {
+                0 => Attr1,
+                1 => Attr2,
+                2 => Attr3,
+                3 => Attr4,
+                4 => Attr5,
+                _ => "",
+            };
         }
-    }
     }
     
 }

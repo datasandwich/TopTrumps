@@ -20,7 +20,6 @@ namespace TopTrumps.Controllers
 
         public string mode;
         public Game game = new(new(0, 0, "", "", "", "", ""), new("", new(0, "", "")), new("", new(0, "", "")), null, "");
-        public Deck allCards;
         public Attributes attributes;
         public IActionResult Index()
         {
@@ -112,14 +111,22 @@ namespace TopTrumps.Controllers
         }
 
         //function to hNDLE CHOICE OF ATTRIBUTE 
-      
-        public async Task<IActionResult> Choice( [Bind("attributes,player1, player2, inPlay,mode")]Game gameState,  int attributeChoice )
+        [Route("/Game/Choice/{chosen1}/{chosen2}")]
+        public IActionResult Choice( int chosen1, int chosen2 )
         {
-
-            
-            gameState.choice(attributeChoice);   
-             
-            return View("Index", gameState );
+            if (chosen1 > chosen2)
+            {
+                TempData["winner"] = 1;
+            }
+            else if(chosen1 < chosen2)
+            {
+                TempData["winner"] = 2;
+            }
+            else
+            {
+                TempData["winner"]= 3;
+            }
+            return Ok();
         }
 
     }
