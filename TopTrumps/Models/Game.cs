@@ -73,7 +73,7 @@ namespace TopTrumps.Models
             else { inPlay.addcard(player2.PlayerHand.getTopCard()); }
         }
         //Adds the 2nd card into play after the attribute choice is made and determines the winner
-        public void choice(int chosen)
+        public Game choice(int chosen)
         {
             if (player1.IsActivePlayer)
             {
@@ -93,6 +93,7 @@ namespace TopTrumps.Models
                 if (player2.IsActivePlayer) { addWinnings(2); }
                 else { addWinnings(1); }
             }
+            return this;
         }
         //Sends all cards in play to the winning player
         private void addWinnings(int winner)

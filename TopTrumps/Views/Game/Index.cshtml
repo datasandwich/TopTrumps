@@ -6,22 +6,22 @@
  <h2 class="text-center mb-5 "> @Model.inPlay.Name</h2>
 <div class="mt-5 d-flex justify-content-between">
   @{
-    var p1card = Model.inPlay.getCards().ToArray()[Model.inPlay.getCards().Count - 1];      
+    var p1card = Model.inPlay.getCards().ToArray()[Model.inPlay.getCards().Count - 1];
+    int attributeChoice = 0;
    }
 
         @*based on who is chosen to start the game the appropriet inPlayview should be displayed 
             if player1 is the one to start the player1 deck is face up  
             which game property tells me who is starting the game? 
         *@
-            
-             <form class="mr-auto" method="post" action="@Url.Action("Choice","Game" )"> 
+             
 
              
-                  <input type="hidden" name = "player1" value="@Model.player1"  />     
-                   <input type="hidden" name = "player2"  value="@Model.player2"  />  
-                    <input type="hidden" name = "inPlay"  value="@Model.inPlay"  />  
-                     <input type="hidden" name = "mode"  value="@Model.mode"  />  
-                      <input type="hidden" name = "attributes" value="@Model.attributes"  /> 
+                <input type="hidden" name = "player1" value="@Model.player1"  />     
+                <input type="hidden" name = "player2"  value="@Model.player2"  />  
+                <input type="hidden" name = "inPlay"  value="@Model.inPlay"  />  
+                <input type="hidden" name = "mode"  value="@Model.mode"  />  
+                <input type="hidden" name = "attributes" value="@Model.attributes"  /> 
 
                  @if(Model.player1.IsActivePlayer)
             {
@@ -29,25 +29,25 @@
                             <h4 class="card-title text-center">@p1card.getName()</h4>    
                             @{  
                         if(p1card.Description != null){
-                                                 <div class="d-flex flex-row h-50 w-100 justify-content-between" >
-                                                    <img class="w-100" style="object-position: 0 0;" src="@p1card.getImage()" />
+                                                         <div class="d-flex flex-row h-50 w-100 justify-content-between" >
+                                                            <img class="w-100" style="object-position: 0 0;" src="@p1card.getImage()" />
 
-                                                    <p class=" my-auto">@p1card.Description</p>
-                                                </div>
+                                                            <p class=" my-auto">@p1card.Description</p>
+                                                        </div>
 
                         }else{
-                                              <div  style="height:50%; width:100%;">
-                                        <img class="w-100 " style="object-position: 0 0;" src="@p1card.getImage()" />
-                                    </div>
-                        }
-                            }
+                                                      <div  style="height:50%; width:100%;">
+                                                <img class="w-100 " style="object-position: 0 0;" src="@p1card.getImage()" />
+                        </div>
+                }
+            }
 
                                      
                                 @for (int i = 0; i < 5; i++)
                         {
    
                                                 <div class="d-flex flex-column justify-content-center form-group">
-                                                     <input type="radio" name = "attributeChoice" class="btn-check" value="@i" id="p1 @i" asp-for= "p1 @i"/>
+                                                     <input type="radio" class="btn-check"  id="p1 @i" value="@i" asp-for= "p1 @i" onclick="@attributeChoice=@i;"/>
                                                     @{var high = (5-i)*2;}
                                                     <label class="btn btn-outline-primary" for="p1 @i">@Model.attributes.getAttr(i) : @p1card.getattr(i)</label>
                                                 </div>
@@ -63,11 +63,10 @@
                     <div class="card mb-3 border-primary"  style="max-width:20rem; height:30rem; ">
                     <img src=@Model.inPlay.ImagePath class="h-100" style="object-fit:cover" />
                     </div>}
-            
-           <button type="submit" class="btn btn-outline-primary btn-lg align-self-auto " asp-controller = "Game" asp-action="Choice" >
+           
+           <input type="button" class="btn btn-outline-primary btn-lg align-self-auto " onclick="@Model = @Model.choice(@attributeChoice)">
                                     Confirm your choice 
-                                </button>
-        </form>
+                                </input>
   
                     
 
@@ -77,43 +76,43 @@
             var p2card = Model.inPlay.getCards().ToArray()[Model.inPlay.getCards().Count - 1];
         }
     @{
-            @if(Model.player2.IsActivePlayer)
+                    @if(Model.player2.IsActivePlayer)
             {
-                     <div class="card mb-3 justify-content-between bg-dark border-primary" style="width:20rem; height:30rem; ">
-                        <h4 class="card-title text-center">@p2card.getName()</h4>    
-                        @{  
+                             <div class="card mb-3 justify-content-between bg-dark border-primary" style="width:20rem; height:30rem; ">
+                                <h4 class="card-title text-center">@p2card.getName()</h4>    
+                                @{  
                         if(p2card.Description != null){
-                                             <div class="d-flex flex-row h-50 w-100" >
-                                                <img class="w-100 flex-grow-1" style="object-position: 0 0;" src="@p2card.getImage()" />
+                                                             <div class="d-flex flex-row h-50 w-100" >
+                                                                <img class="w-100 flex-grow-1" style="object-position: 0 0;" src="@p2card.getImage()" />
 
-                                                <p class="p-1 my-auto">@p2card.Description</p>
-                                            </div>
+                                                                <p class="p-1 my-auto">@p2card.Description</p>
+                                                            </div>
 
                         }else{
-                                          <div  style="height:50%; width:100%;">
-                                    <img class="w-100 " style="object-position: 0 0;" src="@p2card.getImage()" />
-                                </div>
-                        }
-                        }
-
-                        @{<form>           
-                                @for (int i = 0; i < 5; i++)
-                        {
-   
-                                                <div class="d-flex flex-column justify-content-center form-group">
-                                                     <input type="radio" name = "attributeChoice" class="btn-check" value="@p2card.getattr(@i)" id="p2 @i" asp-for= "p2 @i"/>
-                                                    @{var high = (5-i)*2;}
-                                                    <label class="btn btn-outline-primary" for="p2 @i">@Model.attributes.getAttr(i) : @p2card.getattr(i)</label>
+                                                          <div  style="height:50%; width:100%;">
+                                                    <img class="w-100 " style="object-position: 0 0;" src="@p2card.getImage()" />
                                                 </div>
                         }
-                            </form>
+                                }
+
+                                @{<form>           
+                                                @for (int i = 0; i < 5; i++)
+                        {
+   
+                                                                <div class="d-flex flex-column justify-content-center form-group">
+                                                                     <input type="radio" name = "attributeChoice" class="btn-check" value="@p2card.getattr(@i)" id="p2 @i" asp-for= "p2 @i"/>
+                                                                    @{var high = (5-i)*2;}
+                                                                    <label class="btn btn-outline-primary" for="p2 @i">@Model.attributes.getAttr(i) : @p2card.getattr(i)</label>
+                                                                </div>
                         }
-            
-                    </div>
+                                            </form>
+                                }
+                    
+                            </div>
     
     } else {
-                <div class="card mb-3 border-primary"  style="max-width:20rem; height:30rem; ">
-                <img src=@Model.inPlay.ImagePath class="h-100" style="object-fit:cover" />
-                </div>}
+                        <div class="card mb-3 border-primary"  style="max-width:20rem; height:30rem; ">
+                        <img src=@Model.inPlay.ImagePath class="h-100" style="object-fit:cover" />
+                        </div>}
     }
     
