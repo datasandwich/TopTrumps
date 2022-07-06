@@ -16,7 +16,7 @@ namespace TopTrumps.Controllers
 
         public int deck;
         public string mode;
-        public Game game = new(new(0,0,"","","","",""),new("",new(0,"","")),new("",new(0,"","")),null,"");
+        public Game game = new(new(0, 0, "", "", "", "", ""), new("", new(0, "", "")), new("", new(0, "", "")), null, "");
         public Deck allCards;
         public Attributes attributes;
         public IActionResult Index()
@@ -29,8 +29,6 @@ namespace TopTrumps.Controllers
             //categories compared, a player wins
             //winningplayer.addCard(each inPlay)
             //inPlay = null
-
-
             return View();
         }
 
@@ -45,55 +43,16 @@ namespace TopTrumps.Controllers
             {
                 //gets the cards for the chosen deck
                 await setDeck();
-                await Populate(allCards);
-                //shuffles
-                allCards.getShuffled();
-                //distributes the cards evenly between the 2 players
-                if (mode == "Local")
-                {
-                    player2 = new Player("", new(0, "", ""));
-                }
-                else if (mode == "EasyAI")
-                {
-                    player2 = new AI("TrumpNovice", new(0, "", ""), false);
-                }
-                else
-                {
-                    player2 = new AI("TrumpMaster", new(0, "", ""), true);
-                }
-                if (allCards.Id != 0)
-                {
-                    int totcards = allCards.getCards().Count / 2;
-                    for (int i = 0; i < totcards; i++)
-                    {
-                        player1.PlayerHand.addcard(allCards.getTopCard());
-                        player2.PlayerHand.addcard(allCards.getTopCard());
-                    }
-                }
+                await Populate(game.inPlay);
                 //sets the attribute names
                 await getAttributes();
-                if(mode == "Local")
-                    //Coin toss to see who goes first
-                {
-                    Random coinToss = new();
-                    int result = coinToss.Next(2);
-                    switch (result)
-                    {
-                        case 0: player1.IsActivePlayer = true; break;
-                        case 1: player2.IsActivePlayer = true; break;
-                    }
-                }
-                else
-                //Real player goes first
-                {
-                    player1.IsActivePlayer = true;
-                }
+                game.startGame();
                 //START The GAME
-                      
-                return View("Index");
+
+                return View("Index", game);
             }
 
-            return View("Index","Game");
+            return View("Index", "Game");
         }
         public async Task setDeck()
         {
@@ -107,7 +66,7 @@ namespace TopTrumps.Controllers
                         game.inPlay = adeck;
                     }
                 }
-            }while (decks == null);
+            } while (decks == null);
         }
         //Gets a list of cards in adeck(id=deckid)
         public async Task Populate(Deck adeck)
@@ -122,18 +81,32 @@ namespace TopTrumps.Controllers
                         adeck.addcard(card);
                     }
                 }
-            }while (cards == null);
+            } while (cards == null);
         }
         public async Task getAttributes()
         {
             var attribute = await _context.Attribute.FromSqlRaw($"SELECT * FROM Attribute WHERE deckid = {deck}").ToListAsync();
-            foreach(Attributes a in attribute)
+            foreach (Attributes a in attribute)
             {
                 game.attributes = a;
             }
         }
 
-     
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null || _context.Deck == null)
+            {
+                return NotFound();
+            }
+
+            var deck = await _context.Deck
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (deck == null)
+            {
+                return NotFound();
+            }
+            return View(deck);
+        }
 
     }
 }
